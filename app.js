@@ -400,6 +400,11 @@ function renderList() {
 
 // --- CALENDAR ---
 function renderCalendar() {
+  if (window.innerWidth <= 600) {
+    renderCalendarMobile();
+    return;
+  }
+
   const container = document.getElementById('viewCalendar');
   container.innerHTML = '';
 
@@ -454,6 +459,74 @@ function renderCalendar() {
   });
   table.appendChild(tbody);
   container.appendChild(table);
+}
+
+// --- CALENDAR MOBILE (vertical day cards) ---
+function renderCalendarMobile() {
+  const container = document.getElementById('viewCalendar');
+  container.innerHTML = '';
+
+  if (filteredEvents.length === 0) {
+    container.innerHTML = `<div class="no-results"><div class="no-results-icon">🔍</div><p>No events match your search.</p></div>`;
+    return;
+  }
+
+  const days = Object.keys(DAY_LABELS).sort();
+  const grouped = groupByDate(filteredEvents);
+
+  const timeBands = [
+    { label: '🌅 Morning · 6 AM–12 PM',   test: e => isTimeBand(e.time, 0, 12) },
+    { label: '☀️ Afternoon · 12–5 PM',    test: e => isTimeBand(e.time, 12, 17) },
+    { label: '🌆 Evening · 5–11 PM',       test: e => isTimeBand(e.time, 17, 24) },
+    { label: '📅 All Day',                 test: e => e.time.toLowerCase().includes('all day') },
+  ];
+
+  days.forEach(date => {
+    const dayEvents = grouped[date] || [];
+    if (dayEvents.length === 0) return;
+
+    const info = DAY_LABELS[date];
+    const section = document.createElement('div');
+    section.className = 'cal-mobile-day';
+
+    // Day header
+    const hdr = document.createElement('div');
+    hdr.className = `cal-mobile-day-hdr${info.isRaceDay ? ' race-day' : ''}`;
+    hdr.innerHTML = `<span>${info.label}${info.isRaceDay ? ' 🏃' : ''}</span><span class="cal-mobile-count">${dayEvents.length} event${dayEvents.length !== 1 ? 's' : ''}</span>`;
+    section.appendChild(hdr);
+
+    timeBands.forEach(band => {
+      const bandEvents = dayEvents.filter(band.test);
+      if (bandEvents.length === 0) return;
+
+      const bandHdr = document.createElement('div');
+      bandHdr.className = 'cal-mobile-band';
+      bandHdr.textContent = band.label;
+      section.appendChild(bandHdr);
+
+      bandEvents.forEach(ev => {
+        const catClass = CATEGORY_CLASS[ev.category] || 'cat-default';
+        const isFreeEv = isFree(ev);
+        const row = document.createElement('div');
+        row.className = 'cal-mobile-event';
+        row.onclick = () => openModal(ev);
+        row.innerHTML = `
+          <div class="cal-mobile-event-left">
+            <div class="cal-mobile-time">${ev.time}</div>
+            <div class="cal-mobile-name">${ev.name}</div>
+            <div class="cal-mobile-loc">📍 ${ev.location}</div>
+          </div>
+          <div class="cal-mobile-event-right">
+            <span class="card-category ${catClass}" style="font-size:.62rem;white-space:nowrap">${ev.category}</span>
+            <div class="cal-mobile-cost ${isFreeEv ? 'free' : 'paid'}">${isFreeEv ? '✓ Free' : ev.cost}</div>
+          </div>
+        `;
+        section.appendChild(row);
+      });
+    });
+
+    container.appendChild(section);
+  });
 }
 
 // ============================================
