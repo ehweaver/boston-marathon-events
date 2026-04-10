@@ -907,9 +907,7 @@ a:hover { text-decoration: underline; }
 
 .contact-modal-card { max-width: 520px !important; }
 
-@media (max-width: 600px) {
-  .contact-btn { display: none; }
-}
+/* contact-btn hidden at ≤600px — see consolidated mobile block below */
 
 /* ============================================
    FLOATING ACTION BUTTON
@@ -1125,12 +1123,11 @@ a:hover { text-decoration: underline; }
   font-size: 0.82rem !important;
 }
 
-/* Responsive */
+/* submit-btn, FAB, form-row-2 at ≤600px — see consolidated mobile block below */
 @media (max-width: 600px) {
-  .submit-fab { bottom: 16px; right: 16px; padding: 11px 16px; font-size: 0.8rem; }
   .form-row-2 { flex-direction: column; }
-  .submit-form-footer { flex-direction: column; align-items: stretch; text-align: center; }
-  .submit-btn { display: none; } /* header btn hidden on mobile — FAB takes over */
+  .submit-btn { display: none; }
+  .contact-btn { display: none; }
 }
 
 /* ============================================
@@ -1197,26 +1194,180 @@ a:hover { text-decoration: underline; }
 .no-results p { font-size: 0.9rem; }
 
 /* ============================================
-   RESPONSIVE
+   RESPONSIVE — TABLET (≤ 900px)
    ============================================ */
 @media (max-width: 900px) {
   .header-inner { padding: 14px 16px; }
   .header-stats .stat { padding: 8px 12px; }
   .stat-num { font-size: 1.1rem; }
   .controls-inner { padding: 10px 16px; }
-  .main-content { padding: 16px 16px 40px; }
+  .main-content { padding: 16px 16px 80px; }
   .results-bar { padding: 8px 16px; }
-  .events-grid { grid-template-columns: 1fr; }
+  .events-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
   .list-item { grid-template-columns: 100px 1fr auto; }
   .list-cat, .list-link { display: none; }
 }
 
+/* ============================================
+   RESPONSIVE — PHONE (≤ 600px)
+   ============================================ */
 @media (max-width: 600px) {
-  .header-brand h1 { font-size: 1.1rem; }
-  .header-meta { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  /* --- Header: compact single row --- */
+  .header-inner {
+    padding: 10px 14px;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+  }
+  .unicorn-icon { font-size: 1.7rem; }
+  .header-brand { gap: 10px; }
+  .header-brand h1 { font-size: 1.05rem; }
+  .subtitle { display: none; }
+  .header-meta {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+  .badge-marathon { font-size: 0.68rem; padding: 4px 9px; white-space: nowrap; }
+  .last-updated { display: none; }
+  .refresh-btn { display: none; }
   .header-stats { display: none; }
-  .controls-inner { flex-direction: column; align-items: stretch; }
-  .search-wrap { max-width: 100%; }
-  .view-toggle, .filter-group { width: 100%; }
-  .filter-group { overflow-x: auto; }
+
+  /* --- Controls: fix sticky offset for compact header --- */
+  .controls-bar { top: 54px; }
+  .controls-inner {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 12px;
+    gap: 8px;
+  }
+
+  /* --- Search --- */
+  .search-wrap { max-width: 100%; min-width: 0; }
+
+  /* --- View toggle: equal-width buttons --- */
+  .view-toggle { width: 100%; }
+  .view-btn { flex: 1; padding: 9px 4px; font-size: 0.78rem; text-align: center; }
+
+  /* --- Filters: horizontal scroll row (no wrapping) --- */
+  .filter-group {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+    width: 100%;
+    gap: 6px;
+  }
+  .filter-group::-webkit-scrollbar { display: none; }
+  .filter-group select {
+    flex-shrink: 0;
+    min-width: 110px;
+    padding: 9px 10px;
+    font-size: 0.82rem;
+  }
+  .clear-btn { flex-shrink: 0; padding: 9px 12px; }
+
+  /* --- Results bar --- */
+  .results-bar { padding: 7px 12px; }
+
+  /* --- Main content: extra bottom padding for FAB --- */
+  .main-content { padding: 12px 10px 110px; }
+
+  /* --- Grid: single column, touch-friendly cards --- */
+  .events-grid { grid-template-columns: 1fr; gap: 10px; }
+  .event-card { padding: 15px 14px; border-radius: 12px; }
+  .card-name { font-size: 0.98rem; }
+  .card-register { padding: 8px 14px; font-size: 0.78rem; }
+
+  /* --- List view: stacked vertical layout --- */
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 13px 14px;
+    min-height: 0;
+  }
+  .list-time { font-size: 0.72rem; color: var(--blue-mid); font-weight: 700; }
+  .list-name { font-size: 0.9rem; font-weight: 700; }
+  .list-location { font-size: 0.72rem; }
+  .list-cost { font-size: 0.72rem; margin-top: 2px; }
+  .list-cat { display: none; }
+  .list-link { display: none; }
+
+  /* --- Calendar: horizontal scroll with swipe hint --- */
+  .calendar-view::before {
+    content: '← Swipe to see all days →';
+    display: block;
+    text-align: center;
+    font-size: 0.72rem;
+    color: var(--gray-400);
+    padding: 4px 0 8px;
+    font-style: italic;
+    letter-spacing: 0.02em;
+  }
+
+  /* --- Modals: slide up as bottom sheet --- */
+  .modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .modal-card,
+  .submit-modal-card,
+  .contact-modal-card {
+    border-radius: 22px 22px 0 0 !important;
+    max-height: 92vh;
+    max-width: 100% !important;
+    width: 100%;
+    animation: slideUpModal 0.28s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  /* Drag handle pill at top of sheet */
+  .modal-card::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 4px;
+    background: var(--gray-200);
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .modal-close { top: 14px; right: 14px; }
+  .modal-header { padding: 26px 18px 14px; }
+  .modal-title { font-size: 1.15rem; }
+  .modal-body { padding: 14px 18px 32px; gap: 14px; }
+  .modal-register-btn { padding: 14px 20px; font-size: 0.95rem; min-width: 0; }
+
+  .submit-modal-header { padding: 26px 18px 12px; }
+  .submit-modal-title { font-size: 1.1rem; }
+  .submit-form-body { padding: 14px 18px 20px; gap: 10px; }
+  .submit-send-btn { padding: 13px 20px; font-size: 0.88rem; width: 100%; }
+  .submit-form-footer { flex-direction: column; align-items: stretch; text-align: center; }
+
+  /* --- FAB: above iOS home bar --- */
+  .submit-fab { bottom: 20px; right: 14px; padding: 12px 18px; font-size: 0.83rem; }
+
+  /* --- Footer --- */
+  .site-footer { padding: 18px 14px; }
+  .footer-inner { flex-direction: column; gap: 10px; }
+  .footer-right { text-align: left; }
+}
+
+/* Bottom sheet slide-up animation */
+@keyframes slideUpModal {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+/* Extra small screens (iPhone SE, etc.) */
+@media (max-width: 375px) {
+  .header-brand h1 { font-size: 0.92rem; }
+  .badge-marathon { display: none; }
+  .event-card { padding: 13px 12px; }
+  .controls-inner { padding: 8px 10px; }
 }
