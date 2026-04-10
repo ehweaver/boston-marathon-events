@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-04-10T01:41:29.936195+00:00",
+    "last_updated": "2026-04-10T08:21:55.451917+00:00",
     "total_events": 98,
     "sources": [
       "https://www.baa.org/races/boston-marathon/bmweekend/",
@@ -23,7 +23,8 @@
       "https://www.eventbrite.com/d/ma--boston/boston-marathon--2026/",
       "https://www.runguides.com/boston/runs",
       "https://www.bostoncentral.com/events/races/"
-    ]
+    ],
+    "last_checked": "2026-04-10T08:21:55.451897+00:00"
   },
   "events": [
     {
