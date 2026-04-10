@@ -1,0 +1,90 @@
+2026-04-09 11:31:08,185 [INFO] ============================================================
+2026-04-09 11:31:08,185 [INFO] Boston Marathon 2026 Event Scraper — 2026-04-09 11:31:08
+2026-04-09 11:31:08,185 [INFO] ============================================================
+2026-04-09 11:31:08,185 [INFO] Loaded 57 existing events
+2026-04-09 11:31:08,185 [INFO] 
+Scraping: BAA Marathon Weekend (https://www.baa.org/races/boston-marathon/bmweekend/)
+2026-04-09 11:31:08,386 [INFO]   [NEW] B.A.A. Gives Back (2026-04-18)
+2026-04-09 11:31:08,387 [INFO]   [NEW] 2026 Boston 5K (2026-04-18)
+2026-04-09 11:31:08,387 [INFO]   [NEW] B.A.A. Invitational Mile (2026-04-18)
+2026-04-09 11:31:08,387 [INFO]   [NEW] B.A.A. Youth Mile (2026-04-18)
+2026-04-09 11:31:08,388 [INFO]   → Found 4 new events
+2026-04-09 11:31:09,893 [INFO] 
+Scraping: Marathon Weekend .com (https://www.marathon-weekend.com/boston/2026)
+2026-04-09 11:31:10,878 [INFO]   [NEW] Tuesday,14 Apr (2026-04-14)
+2026-04-09 11:31:10,878 [INFO]   [NEW] Boston Marathon Weekend with PYNRS ("The Home Run") (2026-04-14)
+2026-04-09 11:31:10,879 [INFO]   [NEW] Wednesday,15 Apr (2026-04-15)
+2026-04-09 11:31:10,879 [INFO]   [NEW] Tracksmith Boston  '26 Marathon Weekend at the Trackhouse (2026-04-15)
+2026-04-09 11:31:10,879 [INFO]   [NEW] Thursday,16 Apr (2026-04-16)
+2026-04-09 11:31:10,880 [INFO]   [NEW] Locals Run with Metro Movin (2026-04-16)
+2026-04-09 11:31:10,880 [INFO]   [NEW] Endorphins Fuel Bar (Boston Marathon) (2026-04-16)
+2026-04-09 11:31:10,880 [INFO]   [NEW] The Rec Room (2026-04-16)
+2026-04-09 11:31:10,880 [INFO]   [NEW] Boston 2026 Hyper Heartbreak with Adidas Running (2026-04-16)
+2026-04-09 11:31:10,881 [INFO]   [NEW] 2026 Boston Events powered by Nike Running and Heartbreak (2026-04-16)
+2026-04-09 11:31:10,881 [INFO]   [NEW] Friday,17 Apr (2026-04-17)
+2026-04-09 11:31:10,882 [INFO]   [NEW] Brooks Run Club Shakeout Run with Brooks Athletes (2026-04-17)
+2026-04-09 11:31:10,882 [INFO]   [NEW] Runna Boston Race Weekend 2026 (2026-04-17)
+2026-04-09 11:31:10,884 [INFO]   [NEW] Zappos Boston Race Weekend Truck Pop-Up (2026-04-18)
+2026-04-09 11:31:10,884 [INFO]   [NEW] HOKA Light House (Boston) (2026-04-18)
+2026-04-09 11:31:10,887 [INFO]   [NEW] Monday,20 Apr (2026-04-20)
+2026-04-09 11:31:10,888 [INFO]   [NEW] Brooks Mile 0: Shine Under Pressure (2026-04-20)
+2026-04-09 11:31:10,888 [INFO]   → Found 17 new events
+2026-04-09 11:31:12,393 [INFO] 
+Scraping: Heartbreak Hill RC (https://heartbreak.run/blogs/heartbeat/the-ultimate-boston-2026-guide)
+2026-04-09 11:31:12,993 [INFO]   [NEW] Sunday, April 20: Shake it out, Fuel, Rest, Prep & Soak It In! (2026-04-20)
+2026-04-09 11:31:12,994 [INFO]   [NEW] Monday, April 21: RACE DAY! (2026-04-21)
+2026-04-09 11:31:12,994 [INFO]   → Found 2 new events
+2026-04-09 11:31:14,502 [INFO] 
+Scraping: Eventbrite - Marathon Sports (https://www.eventbrite.com/cc/whats-happening-in-boston-2026-4829945)
+2026-04-09 11:31:15,726 [INFO]   [NEW] Team Abbott & Endorphins Boston Shakeout Run & Race Bib OfferTeam Abbott & Endorphins Boston Shakeout Run & Race Bib Offer (2026-04-19)
+2026-04-09 11:31:15,727 [INFO]   [NEW] MAC x The RunRx Boston Marathon  Shake Out Run + Marathon PanelMAC x The RunRx Boston Marathon  Shake Out Run + Marathon Panel (2026-04-15)
+2026-04-09 11:31:15,727 [INFO]   [NEW] Shokz shakeout runShokz shakeout run (2026-04-18)
+2026-04-09 11:31:15,728 [INFO]   [NEW] Runna Boston Shakeout RunRunna Boston Shakeout Run (2026-04-19)
+2026-04-09 11:31:15,728 [INFO]   [NEW] Boston Shakeout RunBoston Shakeout Run (2026-04-18)
+2026-04-09 11:31:15,729 [INFO]   [NEW] Runna's Weekend Warmup 5KRunna's Weekend Warmup 5K (2026-04-18)
+2026-04-09 11:31:15,731 [INFO]   → Found 6 new events
+2026-04-09 11:31:17,231 [INFO] 
+Scraping: Tracksmith Events (https://www.tracksmith.com/events)
+2026-04-09 11:31:17,457 [INFO]   → Found 0 new events
+2026-04-09 11:31:18,963 [INFO] 
+Scraping: RunSignUp Boston Shakeout (https://runsignup.com/Race/MA/Boston/ZapposBostonMarathonShakeoutRun)
+2026-04-09 11:31:19,230 [INFO]   [NEW] Events (2026-04-19)
+2026-04-09 11:31:19,231 [INFO]   [NEW] Zappos Boston Shakeout Run! (2026-04-19)
+2026-04-09 11:31:19,231 [INFO]   [NEW] Price:$0 (2026-04-19)
+2026-04-09 11:31:19,232 [INFO]   [NEW] Place (2026-04-19)
+2026-04-09 11:31:19,232 [INFO]   [NEW] Description (2026-04-19)
+2026-04-09 11:31:19,233 [INFO]   → Found 5 new events
+2026-04-09 11:31:20,738 [INFO] 
+Scraping: Boston Discovery Guide April (https://www.boston-discovery-guide.com/boston-event-calendar-april.html)
+2026-04-09 11:31:21,145 [INFO]   [NEW] Boston Events for April 2026 (2026-04-20)
+2026-04-09 11:31:21,149 [INFO]   [NEW] Boston Concerts - April 2026 (2026-04-16)
+2026-04-09 11:31:21,150 [INFO]   [NEW] Boston Theater & Shows for April 2026 (2026-04-20)
+2026-04-09 11:31:21,150 [INFO]   [NEW] Cherry Blossom Celebration at Arnold Arboretum (2026-04-19)
+2026-04-09 11:31:21,151 [INFO]   [NEW] HOLIDAYS & TOP EVENTS (2026-04-20)
+2026-04-09 11:31:21,151 [INFO]   [NEW] Patriots Day Reenactments (2026-04-20)
+2026-04-09 11:31:21,152 [INFO]   → Found 6 new events
+2026-04-09 11:31:22,657 [INFO] 
+Scraping: Meet Boston - Marathon Events (https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/)
+2026-04-09 11:31:22,989 [INFO]   [NEW] Boston Marathon 2026 (2026-04-20)
+2026-04-09 11:31:22,990 [INFO]   [NEW] Marathon Monday Party (2026-04-20)
+2026-04-09 11:31:22,991 [INFO]   [NEW] Schedule of events for Marathon: (2026-04-17)
+2026-04-09 11:31:22,992 [INFO]   [NEW] History (2026-04-20)
+2026-04-09 11:31:22,992 [INFO]   [NEW] Patriots' Day (2026-04-20)
+2026-04-09 11:31:22,993 [INFO]   → Found 5 new events
+2026-04-09 11:31:24,497 [INFO] 
+Scraping: Eventbrite Boston April 2026 (https://www.eventbrite.com/d/ma--boston/boston-marathon--2026/)
+2026-04-09 11:31:26,269 [INFO]   → Found 0 new events
+2026-04-09 11:31:27,774 [INFO] 
+Scraping: RunGuides Boston 2026 (https://www.runguides.com/boston/runs)
+2026-04-09 11:31:28,030 [INFO]   [NEW] Lexington Lions Patriots Day 5 Mile Road Race (2026-04-18)
+2026-04-09 11:31:28,032 [INFO]   → Found 1 new events
+2026-04-09 11:31:29,537 [INFO] 
+Scraping: BostonCentral Events (https://www.bostoncentral.com/events/races/)
+2026-04-09 11:31:29,761 [INFO]   → Found 0 new events
+2026-04-09 11:31:31,264 [INFO] 
+✅ Adding 46 new events to database
+2026-04-09 11:31:31,269 [INFO] Saved 103 events to /Users/elizaweaver/Documents/ClaudeCode/boston-marathon-events/data/events.json
+2026-04-09 11:31:31,269 [INFO] 
+Total events in database: 103
+2026-04-09 11:31:31,269 [INFO] Scraper run complete.
+

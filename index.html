@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boston Marathon 2026 — Event Tracker</title>
+  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <div class="unicorn-icon">🦄</div>
+        <div>
+          <h1>Boston Marathon 2026</h1>
+          <p class="subtitle">Complete Event Tracker &amp; Weekend Guide</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="badge-marathon">April 20, 2026 · Patriots' Day</div>
+        <div class="last-updated" id="lastUpdated">Loading...</div>
+        <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()">
+          <span class="refresh-icon">↻</span> Check for New Events
+        </button>
+        <button class="submit-btn" onclick="openSubmitModal()">
+          ＋ Submit an Event
+        </button>
+        <button class="contact-btn" onclick="openContactModal()">
+          ✉ Contact Us
+        </button>
+      </div>
+    </div>
+    <div class="header-stats" id="headerStats">
+      <div class="stat"><span class="stat-num" id="totalEvents">—</span><span class="stat-label">Events</span></div>
+      <div class="stat"><span class="stat-num" id="totalFree">—</span><span class="stat-label">Free Events</span></div>
+      <div class="stat"><span class="stat-num" id="totalDays">8</span><span class="stat-label">Days</span></div>
+      <div class="stat"><span class="stat-num" id="totalBrands">—</span><span class="stat-label">Brands</span></div>
+    </div>
+  </header>
+
+  <!-- CONTROLS -->
+  <div class="controls-bar">
+    <div class="controls-inner">
+      <!-- Search -->
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search events, brands, athletes..." oninput="filterEvents()" />
+      </div>
+
+      <!-- View Toggle -->
+      <div class="view-toggle">
+        <button class="view-btn active" id="btnGrid" onclick="setView('grid')">⊞ Grid</button>
+        <button class="view-btn" id="btnCalendar" onclick="setView('calendar')">📅 Calendar</button>
+        <button class="view-btn" id="btnList" onclick="setView('list')">☰ List</button>
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-group">
+        <select id="filterDay" onchange="filterEvents()">
+          <option value="">All Days</option>
+          <option value="2026-04-14">Tue Apr 14</option>
+          <option value="2026-04-15">Wed Apr 15</option>
+          <option value="2026-04-16">Thu Apr 16</option>
+          <option value="2026-04-17">Fri Apr 17</option>
+          <option value="2026-04-18">Sat Apr 18</option>
+          <option value="2026-04-19">Sun Apr 19</option>
+          <option value="2026-04-20">Mon Apr 20 🏃</option>
+          <option value="2026-04-21">Tue Apr 21</option>
+        </select>
+        <select id="filterCategory" onchange="filterEvents()">
+          <option value="">All Categories</option>
+        </select>
+        <select id="filterCost" onchange="filterEvents()">
+          <option value="">Any Cost</option>
+          <option value="free">Free Only</option>
+          <option value="paid">Paid</option>
+        </select>
+        <select id="filterSponsor" onchange="filterEvents()">
+          <option value="">All Sponsors</option>
+        </select>
+        <button class="clear-btn" onclick="clearFilters()">✕ Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULT COUNT -->
+  <div class="results-bar" id="resultsBar">
+    <span id="resultsCount">Loading events...</span>
+    <div class="new-events-badge" id="newEventsBadge" style="display:none">
+      🆕 <span id="newEventsCount">0</span> new events found!
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- GRID VIEW -->
+    <div id="viewGrid" class="events-grid"></div>
+
+    <!-- LIST VIEW -->
+    <div id="viewList" class="events-list" style="display:none"></div>
+
+    <!-- CALENDAR VIEW -->
+    <div id="viewCalendar" class="calendar-view" style="display:none"></div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <strong>Boston Marathon 2026 Event Tracker</strong>
+        <p>Auto-updating from official sources: BAA, Marathon Weekend, Eventbrite, brand sites &amp; more.</p>
+        <p class="sources-label">Sources: <a href="https://www.baa.org" target="_blank">BAA</a> · <a href="https://www.marathon-weekend.com/boston/2026" target="_blank">Marathon Weekend</a> · <a href="https://heartbreak.run" target="_blank">Heartbreak Hill RC</a> · <a href="https://www.eventbrite.com" target="_blank">Eventbrite</a> · <a href="https://www.tracksmith.com/events" target="_blank">Tracksmith</a></p>
+      </div>
+      <div class="footer-right">
+        <p>🏃 130th Boston Marathon</p>
+        <p>Monday, April 20, 2026</p>
+        <p>Patriots' Day</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EVENT DETAIL MODAL -->
+  <div id="modalOverlay" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-card" id="modalCard">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- SUBMIT EVENT MODAL -->
+  <div id="submitOverlay" class="modal-overlay" onclick="closeSubmitModal(event)">
+    <div class="modal-card submit-modal-card" id="submitModalCard">
+      <button class="modal-close" onclick="closeSubmitModal()">✕</button>
+
+      <!-- Step 1: Form -->
+      <div id="submitStep1">
+        <div class="submit-modal-header">
+          <div class="submit-modal-icon">📬</div>
+          <h2 class="submit-modal-title">Submit a Missing Event</h2>
+          <p class="submit-modal-sub">Know about an event we're missing? Fill in what you know — we'll review and add it within 24 hours.</p>
+        </div>
+        <div class="submit-form-body">
+          <div class="form-row form-row-2">
+            <div class="form-field required">
+              <label for="sf-name">Event Name</label>
+              <input type="text" id="sf-name" placeholder="e.g. Lululemon Shakeout Run" />
+              <span class="field-error" id="err-name"></span>
+            </div>
+            <div class="form-field required">
+              <label for="sf-date">Date</label>
+              <select id="sf-date">
+                <option value="">Select a day…</option>
+                <option value="Tue, April 14">Tue, April 14</option>
+                <option value="Wed, April 15">Wed, April 15</option>
+                <option value="Thu, April 16">Thu, April 16</option>
+                <option value="Fri, April 17">Fri, April 17</option>
+                <option value="Sat, April 18">Sat, April 18</option>
+                <option value="Sun, April 19">Sun, April 19</option>
+                <option value="Mon, April 20 (Race Day)">Mon, April 20 — Race Day 🏃</option>
+                <option value="Tue, April 21">Tue, April 21</option>
+              </select>
+              <span class="field-error" id="err-date"></span>
+            </div>
+          </div>
+
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="sf-time">Time</label>
+              <input type="text" id="sf-time" placeholder="e.g. 9:00 AM – 11:00 AM" />
+            </div>
+            <div class="form-field">
+              <label for="sf-cost">Cost</label>
+              <input type="text" id="sf-cost" placeholder="e.g. Free, $10, Paid" />
+            </div>
+          </div>
+
+          <div class="form-field required">
+            <label for="sf-location">Location / Venue</label>
+            <input type="text" id="sf-location" placeholder="e.g. 285 Newbury St, Boston" />
+            <span class="field-error" id="err-location"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="sf-description">Description</label>
+            <textarea id="sf-description" rows="3" placeholder="What's happening? Include any key details about the event…"></textarea>
+          </div>
+
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="sf-sponsor">Sponsor / Brand</label>
+              <input type="text" id="sf-sponsor" placeholder="e.g. Nike, Brooks, Tracksmith" />
+            </div>
+            <div class="form-field">
+              <label for="sf-names">Notable Names / Athletes</label>
+              <input type="text" id="sf-names" placeholder="e.g. Des Linden, Kara Goucher" />
+            </div>
+          </div>
+
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="sf-giveaways">Giveaways / Perks</label>
+              <input type="text" id="sf-giveaways" placeholder="e.g. Free coffee, swag bag" />
+            </div>
+            <div class="form-field">
+              <label for="sf-link">Signup / Event Link</label>
+              <input type="url" id="sf-link" placeholder="https://…" />
+            </div>
+          </div>
+
+          <div class="form-divider"></div>
+
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="sf-source">Where did you see this?</label>
+              <input type="text" id="sf-source" placeholder="e.g. Instagram, brand website…" />
+            </div>
+            <div class="form-field">
+              <label for="sf-submitter">Your Email <span class="optional-label">(optional)</span></label>
+              <input type="email" id="sf-submitter" placeholder="you@example.com" />
+            </div>
+          </div>
+
+          <div class="submit-form-footer">
+            <p class="submit-privacy-note">🔒 Submissions are reviewed before being added. We'll email you if we have questions.</p>
+            <button class="submit-send-btn" onclick="submitEvent()">Send Submission →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Success -->
+      <div id="submitStep2" style="display:none">
+        <div class="submit-success">
+          <div class="submit-success-icon">🎉</div>
+          <h2>Thanks for the tip!</h2>
+          <p>Your email client opened with a pre-filled submission to <strong>bostonmarathonevents@gmail.com</strong>.</p>
+          <p class="submit-success-sub">Just hit <strong>Send</strong> and we'll review your event within 24 hours. If it's a fit, we'll add it to the tracker!</p>
+          <button class="submit-send-btn" onclick="closeSubmitModal()" style="margin-top:24px">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CONTACT MODAL -->
+  <div id="contactOverlay" class="modal-overlay" onclick="closeContactModal(event)">
+    <div class="modal-card contact-modal-card" id="contactModalCard">
+      <button class="modal-close" onclick="closeContactModal()">✕</button>
+
+      <!-- Step 1: Form -->
+      <div id="contactStep1">
+        <div class="submit-modal-header">
+          <div class="submit-modal-icon">✉️</div>
+          <h2 class="submit-modal-title">Contact Us</h2>
+          <p class="submit-modal-sub">Questions, corrections, partnerships, or just want to say hi? Drop us a message and we'll get back to you.</p>
+        </div>
+        <div class="submit-form-body">
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="cf-name">Your Name</label>
+              <input type="text" id="cf-name" placeholder="e.g. Jane Smith" />
+            </div>
+            <div class="form-field">
+              <label for="cf-email">Your Email</label>
+              <input type="email" id="cf-email" placeholder="you@example.com" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="cf-subject">Subject</label>
+            <select id="cf-subject">
+              <option value="General Question">General Question</option>
+              <option value="Event Correction">Event Correction</option>
+              <option value="Partnership / Sponsorship">Partnership / Sponsorship</option>
+              <option value="Media Inquiry">Media Inquiry</option>
+              <option value="Technical Issue">Technical Issue</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-field required">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" rows="5" placeholder="What's on your mind?"></textarea>
+            <span class="field-error" id="err-cf-message"></span>
+          </div>
+          <div class="submit-form-footer">
+            <p class="submit-privacy-note">📬 We typically respond within 24 hours. For event submissions, use the Submit an Event form.</p>
+            <button class="submit-send-btn" onclick="sendContact()">Send Message →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Success -->
+      <div id="contactStep2" style="display:none">
+        <div class="submit-success">
+          <div class="submit-success-icon">📨</div>
+          <h2>Message sent!</h2>
+          <p>Your email client opened with a pre-filled message to <strong>bostonmarathonevents@gmail.com</strong>.</p>
+          <p class="submit-success-sub">Just hit <strong>Send</strong> and we'll get back to you within 24 hours.</p>
+          <button class="submit-send-btn" onclick="closeContactModal()" style="margin-top:24px">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING SUBMIT BUTTON -->
+  <button class="submit-fab" onclick="openSubmitModal()" title="Submit a missing event">
+    ＋ Submit Event
+  </button>
+
+  <script src="app.js?v=4"></script>
+</body>
+</html>

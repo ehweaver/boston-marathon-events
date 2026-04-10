@@ -1,0 +1,2015 @@
+{
+  "meta": {
+    "last_updated": "2026-04-10T00:09:24.666588+00:00",
+    "total_events": 98,
+    "sources": [
+      "https://www.baa.org/races/boston-marathon/bmweekend/",
+      "https://www.marathon-weekend.com/boston/2026",
+      "https://heartbreak.run/blogs/heartbeat/the-ultimate-boston-2026-guide",
+      "https://www.eventbrite.com/cc/whats-happening-in-boston-2026-4829945",
+      "https://brooksboston26.rsvpify.com/",
+      "https://runsignup.com/Race/MA/Boston/ZapposBostonMarathonShakeoutRun",
+      "https://www.tracksmith.com/events"
+    ],
+    "sources_checked": [
+      "https://www.baa.org/races/boston-marathon/bmweekend/",
+      "https://www.marathon-weekend.com/boston/2026",
+      "https://heartbreak.run/blogs/heartbeat/the-ultimate-boston-2026-guide",
+      "https://www.eventbrite.com/cc/whats-happening-in-boston-2026-4829945",
+      "https://www.tracksmith.com/events",
+      "https://runsignup.com/Race/MA/Boston/ZapposBostonMarathonShakeoutRun",
+      "https://www.boston-discovery-guide.com/boston-event-calendar-april.html",
+      "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
+      "https://www.eventbrite.com/d/ma--boston/boston-marathon--2026/",
+      "https://www.runguides.com/boston/runs",
+      "https://www.bostoncentral.com/events/races/"
+    ]
+  },
+  "events": [
+    {
+      "id": 1,
+      "date": "2026-04-14",
+      "day": "Tuesday",
+      "time": "6:30–8:30 PM",
+      "name": "Run Crew Night",
+      "category": "Community Run",
+      "location": "CNCPTS Boston",
+      "address": "Boston, MA",
+      "description": "Community-forward shake hosted with PYNRS and Kane to kick off marathon week. A vibrant run crew gathering to celebrate the start of Boston Marathon week.",
+      "sponsors": [
+        "PYNRS",
+        "Kane"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.marathon-weekend.com/boston/2026/events/run-crew-night",
+      "cost": "Free",
+      "source": "marathon-weekend.com"
+    },
+    {
+      "id": 2,
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "time": "TBA",
+      "name": "Start Line Painting",
+      "category": "Official BAA",
+      "location": "Hopkinton Start Line",
+      "address": "Hopkinton, MA",
+      "description": "Weather-dependent painting of the official marathon start line in Hopkinton.",
+      "sponsors": [
+        "BAA"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Public viewing",
+      "source": "baa.org"
+    },
+    {
+      "id": 3,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "9:00 AM",
+      "name": "Public Safety Press Conference",
+      "category": "Official BAA",
+      "location": "Fairmont Copley Plaza Grand Ballroom",
+      "address": "138 St James Ave, Boston, MA",
+      "description": "Official public safety briefing and press conference for the marathon.",
+      "sponsors": [
+        "BAA"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Press only",
+      "source": "baa.org"
+    },
+    {
+      "id": 4,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "10:00 AM",
+      "name": "Professional Athlete Press Conference",
+      "category": "Official BAA",
+      "location": "Fairmont Copley Plaza Hotel",
+      "address": "138 St James Ave, Boston, MA",
+      "description": "Elite athlete media availability ahead of the 130th Boston Marathon.",
+      "sponsors": [
+        "BAA"
+      ],
+      "big_names": [
+        "Elite Marathoners TBA"
+      ],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Press only",
+      "source": "baa.org"
+    },
+    {
+      "id": 5,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "1:00–5:00 PM",
+      "name": "Brooks Hyperion House — Opening Day",
+      "category": "Brand Activation",
+      "location": "Brooks Hyperion House",
+      "address": "Boston, MA",
+      "description": "Opening day of Brooks' marathon-week home base. Drop in for brand experiences, exclusive giveaways, running gear, and community programming. No RSVP required for general hours.",
+      "sponsors": [
+        "Brooks Running"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Exclusive swag",
+        "Giveaways"
+      ],
+      "signup_link": "https://brooksboston26.rsvpify.com/",
+      "cost": "Free",
+      "source": "brooksboston26.rsvpify.com"
+    },
+    {
+      "id": 6,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "6:30 PM",
+      "name": "Global Launch powered by Nike Running",
+      "category": "Brand Activation",
+      "location": "Heartbreak Hill Running Co. South End",
+      "address": "Boston, MA",
+      "description": "Signature Speed workout and in-store party celebrating the 60th anniversary of Bobbi Gibb's barrier-breaking 1966 Boston Marathon run. Theme: 'Purpose Not Permission.'",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/global-launch",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 7,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "6:30–9:00 PM",
+      "name": "Local's Night powered by Nike Running",
+      "category": "Community Run",
+      "location": "Heartbreak Hill Running Co. South End",
+      "address": "Boston, MA",
+      "description": "Light taper run to keep legs fresh before race weekend. A locals-only celebration of the Boston running community.",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/locals-night-powered-by-nike-running",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 8,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "8:30–9:30 AM",
+      "name": "Adidas Hyperboost Shakeout with Alex Herm",
+      "category": "Shakeout Run",
+      "location": "Marathon Sports Boston",
+      "address": "671 Boylston St, Boston, MA",
+      "description": "Shakeout run and coffee bar with adidas ambassador Alex Herm. Test the new Hyperboost ahead of race day.",
+      "sponsors": [
+        "adidas",
+        "Marathon Sports"
+      ],
+      "big_names": [
+        "Alex Herm"
+      ],
+      "giveaways": [
+        "Coffee bar"
+      ],
+      "signup_link": "https://www.eventbrite.com/e/adidas-test-trial-hyperboost-shakeout-with-herm-tickets-1986764259382",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 9,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "10:00 AM–7:00 PM",
+      "name": "Boston Marathon Expo — Day 1",
+      "category": "Expo",
+      "location": "John B. Hynes Veterans Memorial Convention Center",
+      "address": "900 Boylston St, Boston, MA",
+      "description": "Official bib pickup, sponsor pavilion, photo ops, and the largest collection of adidas Boston Marathon merchandise. Free and open to the public.",
+      "sponsors": [
+        "Bank of America",
+        "adidas"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-expo/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 10,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "All Day",
+      "name": "Boston Marathon Fan Fest — Day 1",
+      "category": "Fan Event",
+      "location": "City Hall Plaza",
+      "address": "1 City Hall Square, Boston, MA",
+      "description": "Live music, entertainment, photo opportunities, meet & greets, and sponsor activations. Free and open to the public.",
+      "sponsors": [
+        "DICK'S Sporting Goods"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-fan-fest/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 11,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "All Day",
+      "name": "Samuel Adams Run Pub at Fan Fest",
+      "category": "Brand Activation",
+      "location": "City Hall Plaza (within Fan Fest)",
+      "address": "1 City Hall Square, Boston, MA",
+      "description": "Samuel Adams beer garden and drinks pop-up within the Fan Fest footprint at City Hall Plaza.",
+      "sponsors": [
+        "Samuel Adams"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-fan-fest/",
+      "cost": "Free (drinks for purchase)",
+      "source": "baa.org"
+    },
+    {
+      "id": 12,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "10:00 AM–4:00 PM",
+      "name": "Brooks Hyperion House — Day 2",
+      "category": "Brand Activation",
+      "location": "Brooks Hyperion House",
+      "address": "Boston, MA",
+      "description": "Drop-in brand experience with rotating panels, shakeout runs, exclusive giveaways, and community programming.",
+      "sponsors": [
+        "Brooks Running"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Exclusive giveaways",
+        "Swag"
+      ],
+      "signup_link": "https://brooksboston26.rsvpify.com/",
+      "cost": "Free",
+      "source": "brooksboston26.rsvpify.com"
+    },
+    {
+      "id": 13,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "5:00–6:00 PM",
+      "name": "Behind the Mount to Coast — Film, Q&A & Community Night",
+      "category": "Film / Community",
+      "location": "939 Boylston St",
+      "address": "939 Boylston St, Boston, MA",
+      "description": "Film screening of the BITR H1 documentary followed by Q&A and community gathering. Part of Marathon Sports' weekend event series.",
+      "sponsors": [
+        "Mount to Coast",
+        "Marathon Sports"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/behind-the-mount-to-coast-bitr-h1-film-qa-community-night-tickets-1986765072815",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 14,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "6:00–8:00 PM",
+      "name": "Sips & Saucony",
+      "category": "Brand Activation",
+      "location": "939 Boylston St",
+      "address": "939 Boylston St, Boston, MA",
+      "description": "Saucony shop-and-sip event with Cadence Electrolyte Mocktails and DJ Mez Wav spinning. A pre-race party celebrating running culture.",
+      "sponsors": [
+        "Saucony",
+        "Cadence",
+        "Marathon Sports"
+      ],
+      "big_names": [
+        "DJ Mez Wav"
+      ],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/sips-saucony-tickets-1986765884242",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 15,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "6:00–7:30 PM",
+      "name": "rabbit Welcome Reception",
+      "category": "Brand Activation",
+      "location": "rabbit Pop-Up Shop, Newbury Street",
+      "address": "301 Newbury St, Boston, MA",
+      "description": "Welcome reception with drinks and light bites at rabbit's Newbury Street pop-up shop. Celebrate the start of marathon weekend with the rabbit community.",
+      "sponsors": [
+        "rabbit"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Drinks",
+        "Light bites"
+      ],
+      "signup_link": "https://www.marathon-weekend.com/boston/2026/events/rabbit-welcome-reception",
+      "cost": "Free",
+      "source": "marathon-weekend.com"
+    },
+    {
+      "id": 16,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "6:30–9:30 PM",
+      "name": "Heartbreak Honors powered by Nike Running",
+      "category": "Awards / Community",
+      "location": "Heartbreak Hill Running Co. South End",
+      "address": "Boston, MA",
+      "description": "Annual awards ceremony celebrating community members who embody the spirit of running. Hosted by co-founder Dan Fitzgerald with artist Luke McCambley. Refreshments and surprises included.",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [
+        "Dan Fitzgerald",
+        "Luke McCambley"
+      ],
+      "giveaways": [
+        "Refreshments",
+        "Surprise giveaways"
+      ],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/heartbreak-honors-celebration-powered-by-nike-running",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 17,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "8:00–11:00 PM",
+      "name": "Boston Marathon Lights the Way",
+      "category": "Evening Event",
+      "location": "Fairmont Copley Plaza Hotel",
+      "address": "138 St James Ave, Boston, MA",
+      "description": "Spectacular evening showcase illuminating the iconic Fairmont Copley Plaza hotel. A visual marathon weekend tradition.",
+      "sponsors": [
+        "BAA",
+        "Fairmont Copley"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/",
+      "cost": "Public viewing",
+      "source": "baa.org"
+    },
+    {
+      "id": 18,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "8:00 AM",
+      "name": "Boston 5K presented by Mass General Brigham",
+      "category": "Race",
+      "location": "Boston Common to Boylston St Finish Line",
+      "address": "Boston Common, Boston, MA",
+      "description": "Nearly 10,000 participants race 3.1 miles from Boston Common through Back Bay to the official Boston Marathon finish line on Boylston Street. Kicks off Patriots' Day Weekend.",
+      "sponsors": [
+        "Mass General Brigham",
+        "BAA"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-5k/",
+      "cost": "Paid registration",
+      "source": "baa.org"
+    },
+    {
+      "id": 19,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "9:00 AM–12:00 PM",
+      "name": "BAA Gives Back presented by Bank of America",
+      "category": "Community Service",
+      "location": "Various Boston locations",
+      "address": "Boston, MA",
+      "description": "Community service event during marathon weekend giving back to the city of Boston.",
+      "sponsors": [
+        "Bank of America",
+        "BAA"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/b-a-a-gives-back/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 20,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "9:30 AM",
+      "name": "rabbit Pop-Up Shakeout Run (Saturday)",
+      "category": "Shakeout Run",
+      "location": "rabbit Pop-Up Shop, Newbury Street",
+      "address": "301 Newbury St, Boston, MA",
+      "description": "Easy shakeout run meeting at the rabbit Newbury Street pop-up. First 75 runners receive goodr sunglasses. Beverages by Yerba Madre served afterward.",
+      "sponsors": [
+        "rabbit",
+        "goodr",
+        "Yerba Madre"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "goodr sunglasses (first 75 runners)",
+        "Beverages by Yerba Madre"
+      ],
+      "signup_link": "https://www.marathon-weekend.com/boston/2026/events/saturday-shakeout",
+      "cost": "Free",
+      "source": "marathon-weekend.com"
+    },
+    {
+      "id": 21,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "9:30 AM",
+      "name": "Tracksmith Stamata Event + 'Chasing 2:37' Screening",
+      "category": "Film / Community",
+      "location": "Newbury Boston Hotel",
+      "address": "Newbury St, Boston, MA",
+      "description": "3-mile shakeout run with Team Stamata followed by a special screening of Tracksmith's docu-series 'Chasing 2:37' and an athlete panel discussion. Light breakfast served.",
+      "sponsors": [
+        "Tracksmith"
+      ],
+      "big_names": [
+        "Stephanie Bruce",
+        "Elizabeth Chikotas",
+        "Maria Luevano-Salazar",
+        "Katy Presley"
+      ],
+      "giveaways": [
+        "Light breakfast"
+      ],
+      "signup_link": "https://www.tracksmith.com/events",
+      "cost": "Free",
+      "source": "tracksmith.com"
+    },
+    {
+      "id": 22,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "9:00 AM–7:00 PM",
+      "name": "Boston Marathon Expo — Day 2",
+      "category": "Expo",
+      "location": "John B. Hynes Veterans Memorial Convention Center",
+      "address": "900 Boylston St, Boston, MA",
+      "description": "Official bib pickup, sponsor pavilion, photo ops, and adidas Boston Marathon merchandise. Free and open to the public.",
+      "sponsors": [
+        "Bank of America",
+        "adidas"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-expo/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 23,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "9:30 AM–12:00 PM",
+      "name": "BAA 5K Afterparty with adidas",
+      "category": "Post-Race Party",
+      "location": "Heartbreak Hill Running Co. Cambridge",
+      "address": "Cambridge, MA",
+      "description": "Post-race celebration for all BAA 5K participants and supporters. Hosted by adidas and Heartbreak Hill Running Co.",
+      "sponsors": [
+        "adidas",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://bostonmarathonadidas.eventcalendarapp.com/u/55721/370129",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 24,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "All Day",
+      "name": "Boston Marathon Fan Fest — Day 2",
+      "category": "Fan Event",
+      "location": "City Hall Plaza",
+      "address": "1 City Hall Square, Boston, MA",
+      "description": "Live music, entertainment, photo opportunities, sponsor activations. Samuel Adams Run Pub on-site. Free and open to the public.",
+      "sponsors": [
+        "DICK'S Sporting Goods",
+        "Samuel Adams"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-fan-fest/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 25,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "10:00 AM–5:00 PM",
+      "name": "Brooks Hyperion House — Day 3 (Panel + Shakeout)",
+      "category": "Brand Activation",
+      "location": "Brooks Hyperion House",
+      "address": "Boston, MA",
+      "description": "Featured panel 'What Does It Take?' hosted by Ashley Mateo with Brooks women's elite marathon squad. Plus shakeout runs, giveaways, and community programming.",
+      "sponsors": [
+        "Brooks Running"
+      ],
+      "big_names": [
+        "Jess McClain",
+        "Susanna Sullivan",
+        "Amanda Vestri",
+        "Erika Kemp",
+        "Ashley Mateo"
+      ],
+      "giveaways": [
+        "Exclusive giveaways",
+        "Swag"
+      ],
+      "signup_link": "https://brooksboston26.rsvpify.com/",
+      "cost": "Free",
+      "source": "brooksboston26.rsvpify.com"
+    },
+    {
+      "id": 26,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "11:00 AM",
+      "name": "BAA Invitational Mile",
+      "category": "Race",
+      "location": "Boylston Street Finish Line",
+      "address": "Boylston St, Boston, MA",
+      "description": "Exciting mile races on Boylston Street for middle school, high school, and professional athletes. Free to spectate.",
+      "sponsors": [
+        "BAA"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/",
+      "cost": "Free to spectate",
+      "source": "baa.org"
+    },
+    {
+      "id": 27,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "1:00 PM",
+      "name": "BAA Youth Mile",
+      "category": "Youth Race",
+      "location": "Boylston Street Finish Line",
+      "address": "Boylston St, Boston, MA",
+      "description": "Free event for youth runners ages 7–14 to experience the thrill of running up and down Boylston Street at the official marathon finish line.",
+      "sponsors": [
+        "BAA"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/community/youthmile",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 28,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "10:00 AM–4:00 PM",
+      "name": "Heartbreak Street Fair powered by Nike Running",
+      "category": "Street Fair",
+      "location": "Heartbreak Hill Running Co. South End",
+      "address": "Boston, MA",
+      "description": "Free outdoor street fair with running services, photo ops, giveaways, and guest appearances. Open to all.",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways",
+        "Free services"
+      ],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/u/55713/369750",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 29,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "3:00–4:00 PM",
+      "name": "Alexi Pappas Meet & Greet with Feetures",
+      "category": "Meet & Greet",
+      "location": "Feetures at 335 Newbury Street",
+      "address": "335 Newbury St, Boston, MA",
+      "description": "Meet Olympic runner, author, and filmmaker Alexi Pappas at the Feetures booth on Newbury Street.",
+      "sponsors": [
+        "Feetures"
+      ],
+      "big_names": [
+        "Alexi Pappas"
+      ],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/alexi-pappas-meet-n-greet-with-feetures-tickets-1986769174082",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 30,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "5:00–7:30 PM",
+      "name": "RIVS Run Club x Marathon Sports Shake-Out Run",
+      "category": "Shakeout Run",
+      "location": "Marathon Sports",
+      "address": "939 Boylston St, Boston, MA",
+      "description": "Community shakeout run hosted by Craft Sportswear and iFIT. Kick off marathon weekend with the RIVS Run Club community.",
+      "sponsors": [
+        "Craft Sportswear",
+        "iFIT",
+        "Marathon Sports"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/rivs-run-club-x-marathon-sports-boston-shake-out-run-tickets-1986236675364",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 31,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "7:00–9:00 PM",
+      "name": "Movie Premiere: 'Boston, You Earned It' with adidas",
+      "category": "Film Premiere",
+      "location": "Heartbreak Hill Running Co. Cambridge",
+      "address": "Cambridge, MA",
+      "description": "World premiere of the film 'Boston, You Earned It' by directors Devin Miller and Fidelis Teixeira, documenting the preparation and community connection of marathon runners. Popcorn and giveaways included.",
+      "sponsors": [
+        "adidas",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [
+        "Devin Miller",
+        "Fidelis Teixeira"
+      ],
+      "giveaways": [
+        "Popcorn",
+        "adidas giveaways"
+      ],
+      "signup_link": "https://bostonmarathonadidas.eventcalendarapp.com/movie-premiere-or-boston-you-earned-it",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 32,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "8:00–11:00 PM",
+      "name": "Boston Marathon Lights the Way",
+      "category": "Evening Event",
+      "location": "Fairmont Copley Plaza Hotel",
+      "address": "138 St James Ave, Boston, MA",
+      "description": "Second evening of the spectacular showcase illuminating the iconic Fairmont Copley Plaza hotel.",
+      "sponsors": [
+        "BAA",
+        "Fairmont Copley"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/",
+      "cost": "Public viewing",
+      "source": "baa.org"
+    },
+    {
+      "id": 33,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "8:30–11:00 AM",
+      "name": "Heartbreak Shakeout Run powered by Nike Running",
+      "category": "Shakeout Run",
+      "location": "Heartbreak Hill Running Co. South End",
+      "address": "Boston, MA",
+      "description": "Described as the 'most ambitious shakeout ever,' featuring Nike global legends and current professional athletes. The perfect pre-race tune-up.",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [
+        "Nike Professional Athletes"
+      ],
+      "giveaways": [],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/heartbreak-shakeout-run-powered-by-nike-running",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 34,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00 AM",
+      "name": "Zappos Boston Marathon Shakeout Run",
+      "category": "Shakeout Run",
+      "location": "Rose Kennedy Greenway Carousel",
+      "address": "191 Atlantic Ave, Boston, MA",
+      "description": "Free community shakeout run with Zappos and Gansett Run Club through the North End to Paul Revere Park. Demo shoes from multiple brands available. Giveaways and prizes. Open to all fitness levels.",
+      "sponsors": [
+        "Zappos",
+        "Gansett Run Club",
+        "Wave Runners",
+        "Wave Run Hers"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Demo shoes",
+        "Giveaways",
+        "Prize opportunities"
+      ],
+      "signup_link": "https://runsignup.com/Race/MA/Boston/ZapposBostonMarathonShakeoutRun",
+      "cost": "Free",
+      "source": "runsignup.com"
+    },
+    {
+      "id": 35,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00 AM",
+      "name": "rabbit Pop-Up Sunday Shakeout Run",
+      "category": "Shakeout Run",
+      "location": "rabbit Pop-Up Shop, Newbury Street",
+      "address": "301 Newbury St, Boston, MA",
+      "description": "Easy Sunday morning shakeout run meeting at the rabbit Newbury Street pop-up. Beverages by Yerba Madre served afterward.",
+      "sponsors": [
+        "rabbit",
+        "Yerba Madre"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Beverages by Yerba Madre"
+      ],
+      "signup_link": "https://www.marathon-weekend.com/boston/2026/events/rabbit-boston-2026-pop-up-shop-boston-marathon-weekend",
+      "cost": "Free",
+      "source": "marathon-weekend.com"
+    },
+    {
+      "id": 36,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00 AM–6:00 PM",
+      "name": "Boston Marathon Expo — Day 3 (Final Day)",
+      "category": "Expo",
+      "location": "John B. Hynes Veterans Memorial Convention Center",
+      "address": "900 Boylston St, Boston, MA",
+      "description": "Final day of the official expo. Last chance for bib pickup, sponsor pavilion, photo ops, and adidas Boston Marathon merchandise.",
+      "sponsors": [
+        "Bank of America",
+        "adidas"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-expo/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 37,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:30 AM",
+      "name": "Des Shakeout Run presented by Brooks Run Club",
+      "category": "Shakeout Run",
+      "location": "Brooks Hyperion House",
+      "address": "285 Newbury St (area), Boston, MA",
+      "description": "Easy 5K shakeout along the river with Des Linden, Kara Goucher, and the Brooks Run Club. Complimentary George Howell Coffee and breakfast served after.",
+      "sponsors": [
+        "Brooks Running",
+        "George Howell Coffee"
+      ],
+      "big_names": [
+        "Des Linden",
+        "Kara Goucher"
+      ],
+      "giveaways": [
+        "George Howell Coffee",
+        "Breakfast"
+      ],
+      "signup_link": "https://brooksboston26.rsvpify.com/",
+      "cost": "Free",
+      "source": "brooksboston26.rsvpify.com"
+    },
+    {
+      "id": 38,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "10:00 AM–5:00 PM",
+      "name": "Brooks Hyperion House — Day 4",
+      "category": "Brand Activation",
+      "location": "Brooks Hyperion House",
+      "address": "Boston, MA",
+      "description": "Pre-race community programming, giveaways, and drop-in brand experiences.",
+      "sponsors": [
+        "Brooks Running"
+      ],
+      "big_names": [
+        "Des Linden",
+        "Kara Goucher"
+      ],
+      "giveaways": [
+        "Exclusive giveaways",
+        "Swag"
+      ],
+      "signup_link": "https://brooksboston26.rsvpify.com/",
+      "cost": "Free",
+      "source": "brooksboston26.rsvpify.com"
+    },
+    {
+      "id": 39,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "10:00 AM–12:00 PM",
+      "name": "Official adidas Hyperboost Boston 2026 Shakeout",
+      "category": "Shakeout Run",
+      "location": "Back Bay to Heartbreak Cambridge",
+      "address": "Back Bay, Boston, MA",
+      "description": "Official adidas shakeout run from Back Bay to Heartbreak Cambridge with professional athletes and community leaders. Energy, community, and surprises.",
+      "sponsors": [
+        "adidas",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [
+        "adidas Pro Athletes",
+        "Community Leaders"
+      ],
+      "giveaways": [],
+      "signup_link": "https://bostonmarathonadidas.eventcalendarapp.com/official-adidas-hyperboost-boston-2026-shakeout",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 40,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "All Day",
+      "name": "Boston Marathon Fan Fest — Day 3 (Final Day)",
+      "category": "Fan Event",
+      "location": "City Hall Plaza",
+      "address": "1 City Hall Square, Boston, MA",
+      "description": "Final day of Fan Fest before the big race. Live music, entertainment, sponsor activations, and CITGO Road to Boston Fun Zone for kids.",
+      "sponsors": [
+        "DICK'S Sporting Goods",
+        "CITGO"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/boston-marathon-fan-fest/",
+      "cost": "Free",
+      "source": "baa.org"
+    },
+    {
+      "id": 41,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:30 AM",
+      "name": "Tracksmith Sunday Shakeout Run",
+      "category": "Shakeout Run",
+      "location": "Tracksmith Trackhouse",
+      "address": "285 Newbury St, Boston, MA",
+      "description": "5K out-and-back shakeout along the Boston Marathon course led by Joachim Cassel and local Boston community members.",
+      "sponsors": [
+        "Tracksmith"
+      ],
+      "big_names": [
+        "Joachim Cassel"
+      ],
+      "giveaways": [],
+      "signup_link": "https://www.tracksmith.com/events",
+      "cost": "Free",
+      "source": "tracksmith.com"
+    },
+    {
+      "id": 42,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "1:00–2:00 PM",
+      "name": "Mount to Coast: For The Long Run x Everyday Ultra Podcast",
+      "category": "Podcast / Community",
+      "location": "Marathon Sports",
+      "address": "939 Boylston St, Boston, MA",
+      "description": "Live podcast recording featuring Jonathan Levitt (For The Long Run) and Joe Corcione (Everyday Ultra). A candid conversation about the running life.",
+      "sponsors": [
+        "Mount to Coast",
+        "Marathon Sports"
+      ],
+      "big_names": [
+        "Jonathan Levitt",
+        "Joe Corcione"
+      ],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/mount-to-coast-presents-for-the-long-run-x-everyday-ultra-podcast-tickets-1986766910311",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 43,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "Evening (time TBA)",
+      "name": "Mangia Sunday — Marathon Carbo-Loading Dinner",
+      "category": "Dinner Event",
+      "location": "Mida Boston",
+      "address": "Boston, MA",
+      "description": "Special pre-race carbo-loading dinner with five entrée options and 'Heartbreak Hill Approved' simple pasta dishes. The perfect final meal before race day.",
+      "sponsors": [
+        "Mida Boston",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://midarestaurant.com/",
+      "cost": "Paid (dinner)",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 44,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "8:00–10:00 PM",
+      "name": "Boston Marathon Lights the Way (Final Night)",
+      "category": "Evening Event",
+      "location": "Fairmont Copley Plaza Hotel",
+      "address": "138 St James Ave, Boston, MA",
+      "description": "Final evening of the Lights the Way showcase at the Fairmont Copley Plaza. Last pre-race illumination event.",
+      "sponsors": [
+        "BAA",
+        "Fairmont Copley"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/",
+      "cost": "Public viewing",
+      "source": "baa.org"
+    },
+    {
+      "id": 45,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "6:00 AM–11:21 AM (Waves)",
+      "name": "130th Boston Marathon presented by Bank of America",
+      "category": "Marathon",
+      "location": "Hopkinton to Boylston Street",
+      "address": "Start: Hopkinton, MA | Finish: Boylston St, Boston, MA",
+      "description": "The main event. The 130th running of the world's oldest annual marathon. ~30,000 runners, multiple staggered wave starts. CLIF bar sampling and sponsor activations along the course.",
+      "sponsors": [
+        "Bank of America",
+        "adidas",
+        "CLIF",
+        "CITGO",
+        "DICK'S Sporting Goods",
+        "Samuel Adams",
+        "Mass General Brigham"
+      ],
+      "big_names": [
+        "Elite Men's Field TBA",
+        "Elite Women's Field TBA"
+      ],
+      "giveaways": [
+        "CLIF bar sampling",
+        "Sponsor giveaways along course"
+      ],
+      "signup_link": "https://www.baa.org/races/boston-marathon/",
+      "cost": "Invitation-based (Qualifier or Charity)",
+      "source": "baa.org"
+    },
+    {
+      "id": 46,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "Race morning",
+      "name": "CITGO Fueling Good Runway",
+      "category": "Race-Day Activation",
+      "location": "Athletes' Village, Hopkinton",
+      "address": "Hopkinton, MA",
+      "description": "Designated runway activation for marathon runners as they depart the Athletes' Village. A high-energy sendoff experience sponsored by CITGO.",
+      "sponsors": [
+        "CITGO"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free (registered runners)",
+      "source": "prnewswire.com"
+    },
+    {
+      "id": 47,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "9:30 AM–12:00 PM",
+      "name": "Heartbreak Cheer Zone powered by Nike Running",
+      "category": "Spectator / Cheer Zone",
+      "location": "Mile 20 — Heartbreak Hill, Newton",
+      "address": "Commonwealth Ave, Newton, MA (Mile 20)",
+      "description": "Cheer zone and spectator support location at the legendary Mile 20 Heartbreak Hill. One of the best spots to cheer on runners at the race's most famous climb.",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 48,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "11:00 AM–5:00 PM",
+      "name": "CITGO One-Mile-to-Go Block Party",
+      "category": "Block Party",
+      "location": "Kenmore Square",
+      "address": "660 Beacon St, Boston, MA",
+      "description": "Family-friendly community celebration under the iconic CITGO sign at the marathon's final mile. Free and open to all.",
+      "sponsors": [
+        "CITGO"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "prnewswire.com"
+    },
+    {
+      "id": 49,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "All Day",
+      "name": "CITGO Road to Boston Fun Zone",
+      "category": "Youth Activation",
+      "location": "Fan Fest / City Hall Plaza",
+      "address": "1 City Hall Square, Boston, MA",
+      "description": "Youth-focused interactive activities at Fan Fest celebrating milestones along the marathon route. Organized by CITGO.",
+      "sponsors": [
+        "CITGO"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "prnewswire.com"
+    },
+    {
+      "id": 50,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "12:00–8:00 PM",
+      "name": "Mile 27 Post-Race Party presented by Samuel Adams",
+      "category": "Post-Race Party",
+      "location": "City Hall Plaza",
+      "address": "1 City Hall Square, Boston, MA",
+      "description": "The official post-race party for the 130th Boston Marathon. Beer garden, sponsor activations, food, and live music celebrating finishers. Tickets: $10.",
+      "sponsors": [
+        "Samuel Adams"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Samuel Adams beer",
+        "Food options"
+      ],
+      "signup_link": "https://tix.wrstbnd.com/e/event/mile27postraceparty26",
+      "cost": "$10",
+      "source": "baa.org"
+    },
+    {
+      "id": 51,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "12:00–6:00 PM",
+      "name": "Brooks Hyperion House Finisher Celebration",
+      "category": "Post-Race Party",
+      "location": "Brooks Hyperion House",
+      "address": "Boston, MA",
+      "description": "Post-race celebration for finishers with Brooks athletes, giveaways, community gathering, and finisher programming.",
+      "sponsors": [
+        "Brooks Running"
+      ],
+      "big_names": [
+        "Des Linden",
+        "Kara Goucher"
+      ],
+      "giveaways": [
+        "Finisher giveaways",
+        "Swag"
+      ],
+      "signup_link": "https://brooksboston26.rsvpify.com/",
+      "cost": "Free",
+      "source": "brooksboston26.rsvpify.com"
+    },
+    {
+      "id": 52,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "All Day",
+      "name": "Oiselle Cheer Zone at Coolidge Corner",
+      "category": "Spectator / Cheer Zone",
+      "location": "Coolidge Corner, Brookline",
+      "address": "Coolidge Corner, Brookline, MA (Mile ~24)",
+      "description": "Stake out a spot on the course with Oiselle at Coolidge Corner. Free spectator zone with Oiselle community presence.",
+      "sponsors": [
+        "Oiselle"
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "marathon-weekend.com"
+    },
+    {
+      "id": 53,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "6:00–10:00 PM",
+      "name": "Heartbreak Afterparty powered by Nike Running",
+      "category": "Post-Race Party",
+      "location": "Carrie Nation, Boston",
+      "address": "Boston, MA",
+      "description": "Official post-race afterparty for runners and supporters, powered by Nike Running and Heartbreak Hill Running Co.",
+      "sponsors": [
+        "Nike Running",
+        "Heartbreak Hill Running Co."
+      ],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "TBA",
+      "source": "heartbreak.run"
+    },
+    {
+      "id": 54,
+      "date": "2026-04-21",
+      "day": "Tuesday",
+      "time": "10:00 AM",
+      "name": "Boston Marathon Champions Press Conference",
+      "category": "Official BAA",
+      "location": "Fairmont Copley Plaza Hotel",
+      "address": "138 St James Ave, Boston, MA",
+      "description": "Post-race media availability with the 130th Boston Marathon champions.",
+      "sponsors": [
+        "BAA"
+      ],
+      "big_names": [
+        "2026 Marathon Champions TBA"
+      ],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Press / Media only",
+      "source": "baa.org"
+    },
+    {
+      "id": 55,
+      "date": "2026-04-21",
+      "day": "Tuesday",
+      "time": "9:00 AM–1:00 PM",
+      "name": "Finisher Medal Engraving with Saucony",
+      "category": "Post-Race Celebration",
+      "location": "Marathon Sports",
+      "address": "671 Boylston St, Boston, MA",
+      "description": "Celebrate your finish by getting your official Boston Marathon medal engraved with your finishing time. Compliments of Saucony.",
+      "sponsors": [
+        "Saucony",
+        "Marathon Sports"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Free medal engraving"
+      ],
+      "signup_link": "https://www.eventbrite.com/e/2026-boston-finisher-medal-engraving-with-saucony-registration-1986767247319",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 56,
+      "date": "2026-04-21",
+      "day": "Tuesday",
+      "time": "10:00 AM–2:00 PM",
+      "name": "Marathon Sports Finisher Portraits",
+      "category": "Post-Race Celebration",
+      "location": "Marathon Sports",
+      "address": "939 Boylston St, Boston, MA",
+      "description": "You earned this moment — now capture it. Free professional finisher portrait sessions at Marathon Sports.",
+      "sponsors": [
+        "Marathon Sports"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Free professional portraits"
+      ],
+      "signup_link": "https://www.eventbrite.com/e/marathon-sports-finisher-portraits-tickets-1986767689642",
+      "cost": "Free",
+      "source": "eventbrite.com"
+    },
+    {
+      "id": 57,
+      "date": "2026-04-21",
+      "day": "Tuesday",
+      "time": "All Day (while supplies last)",
+      "name": "Tracksmith Free Commemorative Posters",
+      "category": "Post-Race Celebration",
+      "location": "Tracksmith Trackhouse",
+      "address": "285 Newbury St, Boston, MA",
+      "description": "Pick up a free commemorative Tracksmith poster celebrating the 130th Boston Marathon. Available all day Tuesday and leftover Monday post-race stock while supplies last.",
+      "sponsors": [
+        "Tracksmith"
+      ],
+      "big_names": [],
+      "giveaways": [
+        "Free commemorative poster"
+      ],
+      "signup_link": "https://www.tracksmith.com/events",
+      "cost": "Free",
+      "source": "tracksmith.com"
+    },
+    {
+      "id": 58,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "TBA",
+      "name": "B.A.A. Gives Back",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Presented by Bank of America April 18, 2026 B.A.A. Gives Back Learn More",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-marathon/bmweekend/b-a-a-gives-back/",
+      "cost": "Free",
+      "source": "BAA Marathon Weekend",
+      "_scraped": true
+    },
+    {
+      "id": 59,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "TBA",
+      "name": "2026 Boston 5K",
+      "category": "Race",
+      "location": "Boylston Street",
+      "address": "",
+      "description": "2026 Boston 5K TIME: 8 a.m. on Saturday, April 18 LOCATION: Boston Common / Boston Marathon Finish Line Nearly 10,000 participants from around the world will race through the streets of Boston as part of the Boston 5K ! Starting at Boston Common, the race finishes down Boylston Street and over the B",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/boston-5k/",
+      "cost": "Free",
+      "source": "BAA Marathon Weekend",
+      "_scraped": true
+    },
+    {
+      "id": 60,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "TBA",
+      "name": "B.A.A. Invitational Mile",
+      "category": "Race",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "B.A.A. Invitational Mile TIME: 11:00 a.m. on Saturday, April 18 LOCATION: Boston Marathon Finish Line Head to Copley Square to watch middle school, high school, and professional races as part of the B.A.A. Invitational Mile. The race route is a loop covering Boylston, Dartmouth, Newbury, and Exeter",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/races/baa-invitational-mile/",
+      "cost": "Free",
+      "source": "BAA Marathon Weekend",
+      "_scraped": true
+    },
+    {
+      "id": 61,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "TBA",
+      "name": "B.A.A. Youth Mile",
+      "category": "Brand Activation",
+      "location": "Boylston Street",
+      "address": "",
+      "description": "B.A.A. Youth Mile TIME: 1:00 p.m. on Saturday, April 18 LOCATION: Boylston Street, Finish Line Watch youth runners from throughout Greater Boston participate in the B.A.A. Youth Mile , experiencing the thrill of running up and down Boylston Street. Register Today",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.baa.org/community/youthmile",
+      "cost": "Free",
+      "source": "BAA Marathon Weekend",
+      "_scraped": true
+    },
+    {
+      "id": 63,
+      "date": "2026-04-14",
+      "day": "Tuesday",
+      "time": "10:00 AM",
+      "name": "Boston Marathon Weekend with PYNRS (\"The Home Run\")",
+      "category": "Shakeout Run",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "10:00 AM Apr 14 - Apr 20 · Concepts Boston Marathon Weekend with PYNRS (\"The Home Run\") Pop-up / Expo · Pynrs, CNCPTS, Kane, Brooks, Suunto, Kickback Boston, Noca 6:30 PM Concepts Run Crew Night Shakeout Run · Pynrs, Kane, CNCPTS",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 65,
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "time": "10:00 AM",
+      "name": "Tracksmith Boston  '26 Marathon Weekend at the Trackhouse",
+      "category": "Marathon",
+      "location": "Tracksmith Trackhouse, 285 Newbury St",
+      "address": "",
+      "description": "10:00 AM Apr 15 - Apr 21 · Tracksmith Trackhouse Tracksmith Boston  '26 Marathon Weekend at the Trackhouse Pop-up / Expo · Tracksmith 6:00 PM Tracksmith Trackhouse Final Tune-Up - Boston Group Run · Tracksmith",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 67,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "6:30 AM",
+      "name": "Locals Run with Metro Movin",
+      "category": "Shakeout Run",
+      "location": "Heartbreak Hill Running Co.",
+      "address": "",
+      "description": "6:30 AM MA Locals Run with Metro Movin Group Run · Endorphins Running, Metro Movin, Marathon Sports 6:30 AM Apr 16 - Apr 21 · Endorphins Fuel Bar Endorphins Fuel Bar (Boston Marathon) Pop-up / Expo · Endorphins Running, New Balance, SiS, Shokz 10:00 AM Apr 16 - Apr 20 · 334 Newbury St, Boston, MA 02",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 68,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "6:30 AM",
+      "name": "Endorphins Fuel Bar (Boston Marathon)",
+      "category": "Marathon",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "6:30 AM Apr 16 - Apr 21 · Endorphins Fuel Bar Endorphins Fuel Bar (Boston Marathon) Pop-up / Expo · Endorphins Running, New Balance, SiS, Shokz",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 69,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "10:00 AM",
+      "name": "The Rec Room",
+      "category": "Shakeout Run",
+      "location": "Newbury Street",
+      "address": "",
+      "description": "10:00 AM Apr 16 - Apr 20 · 334 Newbury St, Boston, MA 02115 The Rec Room Shakeout Run · Running Supply, R.A.D®",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 70,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "10:00 AM",
+      "name": "Boston 2026 Hyper Heartbreak with Adidas Running",
+      "category": "Expo",
+      "location": "Heartbreak Hill Running Co.",
+      "address": "",
+      "description": "10:00 AM Apr 16 - Apr 21 · Heartbreak Hill Running Company Boston 2026 Hyper Heartbreak with Adidas Running Pop-up / Expo · Adidas, Heartbreak Run",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 71,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "6:30 PM",
+      "name": "2026 Boston Events powered by Nike Running and Heartbreak",
+      "category": "Shakeout Run",
+      "location": "Heartbreak Hill Running Co.",
+      "address": "",
+      "description": "6:30 PM Apr 16 - Apr 20 · Heartbreak Hill Running Company 2026 Boston Events powered by Nike Running and Heartbreak Shakeout Run · Nike, Heartbreak Run",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 73,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "8:00 AM",
+      "name": "Brooks Run Club Shakeout Run with Brooks Athletes",
+      "category": "Shakeout Run",
+      "location": "Tracksmith Trackhouse, 285 Newbury St",
+      "address": "",
+      "description": "8:00 AM Brooks Hyperion House: Boston Brooks Run Club Shakeout Run with Brooks Athletes Shakeout Run · Brooks, Shokz 9:00 AM Apr 17 - Apr 21 · MA 02115 rabbit Boston 2026 Pop-Up Shop (Boston Marathon Weekend) Pop-up / Expo · Rabbit, Goodr, Yerba Madre, HydraPak, Hyperice 10:00 AM Apr 17 - Apr 21 · 5",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 74,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "10:00 AM",
+      "name": "Runna Boston Race Weekend 2026",
+      "category": "Race",
+      "location": "Boylston Street",
+      "address": "",
+      "description": "10:00 AM Apr 17 - Apr 21 · 583 Boylston St, Boston, MA 02116, USA Runna Boston Race Weekend 2026 Pop-up / Expo",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 75,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "9:00 AM",
+      "name": "Zappos Boston Race Weekend Truck Pop-Up",
+      "category": "Race",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "9:00 AM Apr 18 - Apr 20 · MA 02111 Zappos Boston Race Weekend Truck Pop-Up Pop-up / Expo · Vital Run Club, Gansett Run Club, Hyperice, Zappos",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 76,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "10:00 AM",
+      "name": "HOKA Light House (Boston)",
+      "category": "Expo",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "10:00 AM Apr 18 - Apr 19 · HOKA Light House HOKA Light House (Boston) Pop-up / Expo · HOKA, Wahoo, Zwift",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 78,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "6:00 AM",
+      "name": "Brooks Mile 0: Shine Under Pressure",
+      "category": "Race",
+      "location": "Tracksmith Trackhouse, 285 Newbury St",
+      "address": "",
+      "description": "6:00 AM Boston Brooks Mile 0: Shine Under Pressure Other · Brooks 7:00 AM MA Monday Morning Endorphins Run Group Run · Endorphins Running 9:00 AM USA Race Weekend Cheer Zone Cheer Zone · Zappos, Strava 10:00 AM Marathon Sports Brooks Cheer Station in Wellesley - Mile 14 Cheer Zone · Brooks, Marathon",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Free poster",
+        "Photos"
+      ],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Marathon Weekend .com",
+      "_scraped": true
+    },
+    {
+      "id": 79,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "7:00PM-9:00PM",
+      "name": "Sunday, April 20: Shake it out, Fuel, Rest, Prep & Soak It In!",
+      "category": "Shakeout Run",
+      "location": "South End, Boston",
+      "address": "",
+      "description": "📍 Heartbreak Cambridge 7:00PM-9:00PM Devin Miller & Fidelis Teixeira will debut their short film documenting Dev’s lead-up to Boston 2026 (his first!), their relationship to each other, and to the running community at-large. Expect Popcorn, giveaways, and the deep connection that runs through our co",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways",
+        "Popcorn"
+      ],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/heartbreak-shakeout-run-powered-by-nike-running",
+      "cost": "Free",
+      "source": "Heartbreak Hill RC",
+      "_scraped": true
+    },
+    {
+      "id": 80,
+      "date": "2026-04-21",
+      "day": "Tuesday",
+      "time": "12PM",
+      "name": "Monday, April 21: RACE DAY!",
+      "category": "Shakeout Run",
+      "location": "Back Bay, Boston",
+      "address": "",
+      "description": "📍 The Back Bay 10:00-12PM Join adidas, Believe in the Run, and Heartbreak for the most Hyperboosted Shakeout! Gathering energy with professional athletes, community leaders, and other suprises. This easy run from the Back Bay to Heartbreak Cambridge will be one to remember! Mangia Sunday: Boston Mar",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://midarestaurant.com/",
+      "cost": "Free",
+      "source": "Heartbreak Hill RC",
+      "_scraped": true
+    },
+    {
+      "id": 81,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "11:00 AM",
+      "name": "Team Abbott & Endorphins Boston Shakeout Run & Race Bib OfferTeam Abbott & Endorphins Boston Shakeout Run & Race Bib Offer",
+      "category": "Shakeout Run",
+      "location": "City Hall Plaza",
+      "address": "Boston, MA",
+      "description": "Team Abbott & Endorphins Boston Shakeout Run & Race Bib Offer Team Abbott & Endorphins Boston Shakeout Run & Race Bib Offer Sun, Apr 19, 11:00 AM City Hall Plaza â¢ Boston, MA Save Team Abbott & Endorphins Boston Shakeout Run & Race Bib Offer to your collection. Share Team Abbott & Endorphins Bosto",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.de/e/team-abbott-endorphins-boston-shakeout-run-race-bib-offer-tickets-1985667572161?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
+      "_scraped": true
+    },
+    {
+      "id": 82,
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "time": "6:00 PM",
+      "name": "MAC x The RunRx Boston Marathon  Shake Out Run + Marathon PanelMAC x The RunRx Boston Marathon  Shake Out Run + Marathon Panel",
+      "category": "Shakeout Run",
+      "location": "Boston, MA",
+      "address": "Boston, MA",
+      "description": "MAC x The RunRx Boston Marathon  Shake Out Run + Marathon Panel MAC x The RunRx Boston Marathon  Shake Out Run + Marathon Panel Wed, Apr 15, 6:00 PM MYSTRYDE Athletic Club Charlestown â¢ Boston, MA Save MAC x The RunRx Boston Marathon  Shake Out Run + Marathon Panel to your collection. Share MAC x",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/mac-x-the-runrx-boston-marathon-shake-out-run-marathon-panel-tickets-1986336336453?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
+      "_scraped": true
+    },
+    {
+      "id": 83,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "3:40 PM",
+      "name": "Shokz shakeout runShokz shakeout run",
+      "category": "Shakeout Run",
+      "location": "Boston, MA",
+      "address": "Boston, MA",
+      "description": "Shokz shakeout run Shokz shakeout run Sat, Apr 18, 3:40 PM å¸æ¿åå¹¿åº â¢ Boston, MA Save Shokz shakeout run to your collection. Share Shokz shakeout run with your friends.",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/shokz-shakeout-run-tickets-1986498600790?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
+      "_scraped": true
+    },
+    {
+      "id": 84,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00 AM",
+      "name": "Runna Boston Shakeout RunRunna Boston Shakeout Run",
+      "category": "Shakeout Run",
+      "location": "Boylston Street",
+      "address": "Boston, MA",
+      "description": "Runna Boston Shakeout Run Runna Boston Shakeout Run Sun, Apr 19, 9:00 AM 583 Boylston St â¢ Boston, MA Save Runna Boston Shakeout Run to your collection. Share Runna Boston Shakeout Run with your friends.",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.co.uk/e/runna-boston-shakeout-run-tickets-1985998549122?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
+      "_scraped": true
+    },
+    {
+      "id": 85,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "10:15 AM",
+      "name": "Boston Shakeout RunBoston Shakeout Run",
+      "category": "Shakeout Run",
+      "location": "Boston, MA",
+      "address": "Boston, MA",
+      "description": "Boston Shakeout Run Boston Shakeout Run Sat, Apr 18, 10:15 AM EverybodyFights â¢ Boston, MA Save Boston Shakeout Run to your collection. Share Boston Shakeout Run with your friends.",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com.au/e/boston-shakeout-run-tickets-1986482970038?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
+      "_scraped": true
+    },
+    {
+      "id": 86,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "10:00 AM",
+      "name": "Runna's Weekend Warmup 5KRunna's Weekend Warmup 5K",
+      "category": "Race",
+      "location": "Boylston Street",
+      "address": "Boston, MA",
+      "description": "Runna's Weekend Warmup 5K Runna's Weekend Warmup 5K Sat, Apr 18, 10:00 AM 583 Boylston St â¢ Boston, MA Save Runna's Weekend Warmup 5K to your collection. Share Runna's Weekend Warmup 5K with your friends.",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.co.uk/e/runnas-weekend-warmup-5k-tickets-1986203438953?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
+      "_scraped": true
+    },
+    {
+      "id": 87,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00AM",
+      "name": "Events",
+      "category": "Shakeout Run",
+      "location": "Rose Kennedy Greenway",
+      "address": "",
+      "description": "Events Zappos Boston Shakeout Run! Price: $0 Time: 9:00AM EDT Registration ends April 19, 2026 at 9:00am EDT Sign Up Place 191 Atlantic Ave Boston, MA US 02111 Description Zappos Shakeout Run - Boston Marathon Weekend Sunday, April 19th Boston Marathon weekend is almost here. Join Zappos and Gansett",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways",
+        "Demo shoes"
+      ],
+      "signup_link": "https://runsignup.com/Race/Events/MA/Boston/ZapposBostonMarathonShakeoutRun#event-1141435",
+      "cost": "Free",
+      "source": "RunSignUp Boston Shakeout",
+      "_scraped": true
+    },
+    {
+      "id": 88,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00AM",
+      "name": "Zappos Boston Shakeout Run!",
+      "category": "Shakeout Run",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Zappos Boston Shakeout Run! Price: $0 Time: 9:00AM EDT Registration ends April 19, 2026 at 9:00am EDT Sign Up",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://runsignup.com/Race/Events/MA/Boston/ZapposBostonMarathonShakeoutRun#event-1141435",
+      "cost": "$0",
+      "source": "RunSignUp Boston Shakeout",
+      "_scraped": true
+    },
+    {
+      "id": 89,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00AM",
+      "name": "Price:$0",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Price: $0 Time: 9:00AM EDT Registration ends April 19, 2026 at 9:00am EDT",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "$0",
+      "source": "RunSignUp Boston Shakeout",
+      "_scraped": true
+    },
+    {
+      "id": 90,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "TBA",
+      "name": "Place",
+      "category": "Shakeout Run",
+      "location": "Rose Kennedy Greenway",
+      "address": "",
+      "description": "Place 191 Atlantic Ave Boston, MA US 02111 Description Zappos Shakeout Run - Boston Marathon Weekend Sunday, April 19th Boston Marathon weekend is almost here. Join Zappos and Gansett Run Club, one of New England’s largest run communities, for a free shakeout run to kick off one of the best weekends",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways",
+        "Demo shoes"
+      ],
+      "signup_link": "https://www.instagram.com/waverunnersruncrew/",
+      "cost": "Free",
+      "source": "RunSignUp Boston Shakeout",
+      "_scraped": true
+    },
+    {
+      "id": 91,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "TBA",
+      "name": "Description",
+      "category": "Shakeout Run",
+      "location": "Rose Kennedy Greenway",
+      "address": "",
+      "description": "Description Zappos Shakeout Run - Boston Marathon Weekend Sunday, April 19th Boston Marathon weekend is almost here. Join Zappos and Gansett Run Club, one of New England’s largest run communities, for a free shakeout run to kick off one of the best weekends of the year. We’ll meet at the carousel on",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways",
+        "Demo shoes"
+      ],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "RunSignUp Boston Shakeout",
+      "_scraped": true
+    },
+    {
+      "id": 92,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "Boston Events for April 2026",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Home Events April Boston Events for April 2026 Marathon, Patriots Day, Red Sox - Biggest April Events!",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.boston-discovery-guide.com/",
+      "cost": "Free",
+      "source": "Boston Discovery Guide April",
+      "_scraped": true
+    },
+    {
+      "id": 93,
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "time": "TBA",
+      "name": "Boston Concerts - April 2026",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Boston Concerts - April 2026 Top April Concerts & Shows in Boston Top Boston concerts in April 2026 include Cardi B, Demi Lovato, Rhiannon Giddens, Mika, Candlelight Concerts, & more: Cardi B - TD Garden - April 2 Twice - TD Garden - April 3, 4 Forever K-Pop - Emerson Colonial - April 8 The Neighbou",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.anrdoezrs.net/click-3438095-11553175?sid=AprilGardenCardiB&url=https%3A%2F%2Fwww.ticketliquidator.com%2Ftickets%2F7413970%2Fcardi-b-tickets-thu-apr-2-2026-td-garden",
+      "cost": "Free",
+      "source": "Boston Discovery Guide April",
+      "_scraped": true
+    },
+    {
+      "id": 94,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "Boston Theater & Shows for April 2026",
+      "category": "Dinner Event",
+      "location": "Boston Common",
+      "address": "",
+      "description": "Boston Theater & Shows for April 2026 Charles Playhouse in Boston's Theatre District Top April Shows in Boston - Schedules & Tickets Enter DISCOVERY10 to save 10% on TicketLiquidator & TicketNetwork tickets.  Good for purchases made through 12/31/26. Check out the Boston theater schedule for April w",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.tkqlhce.com/click-3438095-11553175?sid=MarchAprilMayLaughDirtyDisney&url=https%3A%2F%2Fwww.ticketliquidator.com%2Fsearch%3Fq%3Dboston%2Bdirty%2Bdisney",
+      "cost": "Free",
+      "source": "Boston Discovery Guide April",
+      "_scraped": true
+    },
+    {
+      "id": 95,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "2pm",
+      "name": "Cherry Blossom Celebration at Arnold Arboretum",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Cherry Blossom Celebration at Arnold Arboretum Cherry blossoms at Arnold Arboretum Admire the beauty of the cherry blossoms in Arnold Arboretum, Boston's large and wonderful botanical garden, and celebrate Japanese culture including traditional dances, games, drumming, and fun family activities on A",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://arboretum.harvard.edu/events/cherry-blossom-celebration/",
+      "cost": "Free",
+      "source": "Boston Discovery Guide April",
+      "_scraped": true
+    },
+    {
+      "id": 96,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "HOLIDAYS & TOP EVENTS",
+      "category": "Marathon",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "HOLIDAYS & TOP EVENTS Valentine's Day How to celebrate your love in Boston Chinese New Year Parade See the lion dancers & martial arts in Chinatown St Patricks Day Events Find out about the huge parade, concerts, cruises, & other fun events Boston Marathon See the parade route, tips for runners, whe",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.boston-discovery-guide.com/valentines-day.html",
+      "cost": "Free",
+      "source": "Boston Discovery Guide April",
+      "_scraped": true
+    },
+    {
+      "id": 97,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "Patriots Day Reenactments",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Patriots Day Reenactments Commemorate the American Revolution with reenactments & parades",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.boston-discovery-guide.com/patriots-day.html",
+      "cost": "Free",
+      "source": "Boston Discovery Guide April",
+      "_scraped": true
+    },
+    {
+      "id": 98,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "Boston Marathon 2026",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Boston Marathon 2026 April 20, 2026",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Meet Boston - Marathon Events",
+      "_scraped": true
+    },
+    {
+      "id": 99,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "Marathon Monday Party",
+      "category": "Marathon",
+      "location": "Boylston Street",
+      "address": "",
+      "description": "Apr 20 Marathon Monday Party Atlantic Fish Company Cheer on your favorite runners at our complete indoor-outdoor experience on Boylston Street, just steps from the finish line. Feast on an endless cuisine, including a continental breakfast to start the day, signature passed hors d' oeuvres, chef-att",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Breakfast"
+      ],
+      "signup_link": "https://www.meetboston.com/event/marathon-monday-party/89837/",
+      "cost": "Free",
+      "source": "Meet Boston - Marathon Events",
+      "_scraped": true
+    },
+    {
+      "id": 100,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "TBA",
+      "name": "Schedule of events for Marathon:",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Schedule of events for Marathon: Division/Program Start time Military March 6:00 a.m. Men's Wheelchair 9:02 a.m. Women's Wheelchair 9:05 a.m. Handcycles & Duos 9:30 a.m. Professional Men 9:37 a.m. Professional Women 9:45 a.m. Para Athletics Division 9:50 a.m. Rolling start begins 10:00 a.m. Future M",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "Meet Boston - Marathon Events",
+      "_scraped": true
+    },
+    {
+      "id": 101,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "History",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "History Read about the history of the Boston Marathon including the first marathon, the distance, date and gender changes over the years, as well as past winners. Patriots' Day Celebrate Patriots' Day in Boston - a festival commemorating the anniversary of the Battles of Lexington and Concord. View",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/history/",
+      "cost": "Free",
+      "source": "Meet Boston - Marathon Events",
+      "_scraped": true
+    },
+    {
+      "id": 102,
+      "date": "2026-04-20",
+      "day": "Monday",
+      "time": "TBA",
+      "name": "Patriots' Day",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Patriots' Day Celebrate Patriots' Day in Boston - a festival commemorating the anniversary of the Battles of Lexington and Concord. View parades, events, and more.",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.meetboston.com/events/holidays/patriots-day/",
+      "cost": "Free",
+      "source": "Meet Boston - Marathon Events",
+      "_scraped": true
+    },
+    {
+      "id": 103,
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "time": "TBA",
+      "name": "Lexington Lions Patriots Day 5 Mile Road Race",
+      "category": "Race",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "8k/5mi Road Lexington Lions Patriots Day 5 Mile Road Race Date: Apr 18, 2026 - Saturday Size: 100 - 500 participants Location: Lexington, Massachusetts",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
+      "cost": "Free",
+      "source": "RunGuides Boston 2026",
+      "_scraped": true
+    }
+  ]
+}
