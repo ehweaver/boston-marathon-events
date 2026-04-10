@@ -599,31 +599,10 @@ document.addEventListener('keydown', e => {
 // HELPERS
 // ============================================
 
-// Maps source labels/domains → proper URLs so every event always has a link
-const SOURCE_URL_MAP = {
-  'baa.org':                      'https://www.baa.org/races/boston-marathon/event-information',
-  'BAA Marathon Weekend':         'https://www.baa.org/races/boston-marathon/event-information',
-  'heartbreak.run':               'https://heartbreak.run',
-  'Heartbreak Hill RC':           'https://heartbreak.run',
-  'marathon-weekend.com':         'https://www.marathon-weekend.com/boston/2026',
-  'Marathon Weekend .com':        'https://www.marathon-weekend.com/boston/2026',
-  'eventbrite.com':               'https://www.eventbrite.com/d/ma--boston/boston-marathon/',
-  'Eventbrite':                   'https://www.eventbrite.com/d/ma--boston/boston-marathon/',
-  'tracksmith.com':               'https://www.tracksmith.com/events',
-  'runsignup.com':                'https://runsignup.com',
-  'RunSignUp Boston Shakeout':    'https://runsignup.com',
-  'brooksboston26.rsvpify.com':   'https://brooksboston26.rsvpify.com',
-  'prnewswire.com':               'https://www.prnewswire.com',
-  'Boston Discovery Guide April': 'https://www.boston-discovery-guide.com/boston-marathon-events.html',
-  'Meet Boston - Marathon Events':'https://www.meetboston.com/events/',
-  'RunGuides Boston 2026':        'https://runguides.com',
-};
-
 function sourceToUrl(source) {
   if (!source) return null;
-  if (source.startsWith('http')) return source;                        // already a full URL
-  if (SOURCE_URL_MAP[source]) return SOURCE_URL_MAP[source];           // known label/domain
-  if (source.includes('.') && !source.includes(' '))                   // bare domain like foo.com
+  if (source.startsWith('http')) return source;          // already a full URL (current format)
+  if (source.includes('.') && !source.includes(' '))     // bare domain e.g. foo.com
     return 'https://' + source;
   return null;
 }

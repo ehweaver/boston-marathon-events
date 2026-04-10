@@ -293,7 +293,7 @@ def scrape_html(source: dict, existing_events: list) -> list:
             "giveaways": guess_giveaways(text),
             "signup_link": link,
             "cost": guess_cost(text),
-            "source": source["name"],
+            "source": source["url"],
             "_scraped": True,
         }
         new_events.append(ev)
@@ -350,7 +350,7 @@ def scrape_eventbrite(source: dict, existing_events: list) -> list:
             "giveaways": guess_giveaways(text),
             "signup_link": link,
             "cost": guess_cost(text),
-            "source": "Eventbrite",
+            "source": source["url"],
             "_scraped": True,
         }
         new_events.append(ev)
