@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-04-10T00:09:24.666588+00:00",
+    "last_updated": "2026-04-10T01:41:29.936195+00:00",
     "total_events": 98,
     "sources": [
       "https://www.baa.org/races/boston-marathon/bmweekend/",
@@ -2009,6 +2009,24 @@
       "signup_link": "",
       "cost": "Free",
       "source": "RunGuides Boston 2026",
+      "_scraped": true
+    },
+    {
+      "id": 104,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "9:00 AM",
+      "name": "Amazfit Boston Shakeout With Caitlyn MillerAmazfit Boston Shakeout With Caitlyn Miller",
+      "category": "Shakeout Run",
+      "location": "Boston, MA",
+      "address": "Boston, MA",
+      "description": "Amazfit Boston Shakeout With Caitlyn Miller Amazfit Boston Shakeout With Caitlyn Miller Sun, Apr 19, 9:00 AM Hue Boston â¢ Boston, MA Save Amazfit Boston Shakeout With Caitlyn Miller to your collection. Share Amazfit Boston Shakeout With Caitlyn Miller with your friends.",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.eventbrite.com/e/amazfit-boston-shakeout-with-caitlyn-miller-tickets-1987069259646?aff=ebdsreoeymlcollection",
+      "cost": "Free",
+      "source": "Eventbrite",
       "_scraped": true
     }
   ]
