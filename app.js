@@ -569,7 +569,9 @@ function openModal(ev) {
       <div class="modal-cta">
         ${ev.signup_link
           ? `<a class="modal-register-btn" href="${ev.signup_link}" target="_blank">Register / Sign Up →</a>`
-          : `<a class="modal-register-btn modal-search-btn" href="https://www.google.com/search?q=${encodeURIComponent(ev.name + ' Boston Marathon 2026')}" target="_blank">🔍 Find Signup Info →</a>`
+          : ev.source
+            ? `<a class="modal-register-btn modal-search-btn" href="${ev.source}" target="_blank">More Info →</a>`
+            : ''
         }
       </div>
     </div>
