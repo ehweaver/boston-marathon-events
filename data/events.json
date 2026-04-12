@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-04-11T07:50:47.755508+00:00",
+    "last_updated": "2026-04-12T08:03:41.397359+00:00",
     "total_events": 98,
     "sources": [
       "https://www.baa.org/races/boston-marathon/bmweekend/",
@@ -2066,6 +2066,27 @@
       "signup_link": "https://www.meetboston.com/event/seaav%e2%80%99s-boston-marathon-wellness-experience/90060/",
       "cost": "Free",
       "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
+      "_scraped": true
+    },
+    {
+      "id": 107,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "6:00PM - 9:00PM",
+      "name": "Thursday, April 17: Kickoff & Taper @ Local's Night",
+      "category": "Shakeout Run",
+      "location": "South End, Boston",
+      "address": "",
+      "description": "Friday , April 17, 6:00PM - 9:00PM: Heartbreak Honors powered by Nike Running Saturday , April 18, 9:00AM- 12:00PM: BAA 5k After Party with adidas Saturday , April 18, 10:00AM - 4:00PM: Heartbreak Street Fair powered by Nike Running Saturday , April 18th: 7:00PM - 9:00PM: Movie Premiere Boston, You",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways",
+        "Beverages"
+      ],
+      "signup_link": "https://bostonmarathonweekend.eventcalendarapp.com/heartbreak-honors-celebration-powered-by-nike-running",
+      "cost": "Free",
+      "source": "https://heartbreak.run/blogs/heartbeat/the-ultimate-boston-2026-guide",
       "_scraped": true
     }
   ]
