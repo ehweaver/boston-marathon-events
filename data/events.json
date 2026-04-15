@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-04-14T08:28:31.711647+00:00",
+    "last_updated": "2026-04-15T08:28:08.420163+00:00",
     "total_events": 98,
     "sources": [
       "https://www.baa.org/races/boston-marathon/bmweekend/",
@@ -2157,6 +2157,42 @@
       "big_names": [],
       "giveaways": [],
       "signup_link": "https://www.meetboston.com/event/b-a-a-marathon-trophy-appearance/90100/",
+      "cost": "Free",
+      "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
+      "_scraped": true
+    },
+    {
+      "id": 112,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "TBA",
+      "name": "Boston Marathon Runner Perks",
+      "category": "Marathon",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Apr 15 Boston Marathon Runner Perks Seaport Recurring daily Select Seaport stores and businesses are offering deals for Boston Marathon Runners - stay tuned for the full list here. Runners can receive a free taco at Borrachito for Boston Marathon weekend from Friday April 17 through Monday April 20",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.meetboston.com/event/boston-marathon-runner-perks/90121/",
+      "cost": "Free",
+      "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
+      "_scraped": true
+    },
+    {
+      "id": 113,
+      "date": "2026-04-17",
+      "day": "Friday",
+      "time": "TBA",
+      "name": "Run Strong, Finish Sweet",
+      "category": "Marathon",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Apr 17 Run Strong, Finish Sweet Pic & Mix Recurring daily Bring in your 2026 Boston Marathon Bib or Medal between 4/17 & 4/24 to receive a FREE GIFT* with purchase!",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "https://www.meetboston.com/event/run-strong-finish-sweet/90106/",
       "cost": "Free",
       "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
       "_scraped": true
