@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-04-18T07:59:59.372303+00:00",
+    "last_updated": "2026-04-19T08:06:07.077467+00:00",
     "total_events": 98,
     "sources": [
       "https://www.baa.org/races/boston-marathon/bmweekend/",
@@ -2193,6 +2193,26 @@
       "big_names": [],
       "giveaways": [],
       "signup_link": "https://www.meetboston.com/event/run-strong-finish-sweet/90106/",
+      "cost": "Free",
+      "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
+      "_scraped": true
+    },
+    {
+      "id": 114,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "TBA",
+      "name": "First Time Boston Marathoner Celebration",
+      "category": "Spectator / Cheer Zone",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Apr 19 First Time Boston Marathoner Celebration Harpoon Brewery Join us and local marathon legend, Becca Pizzi at Harpoon Seaport Sunday 4/19 and Marathon Monday 4/20 to celebrate all the 1st time Boston Marathoners out there with custom glassware and cowbell giveaways, protein and carb-loaded food",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [
+        "Giveaways"
+      ],
+      "signup_link": "https://www.meetboston.com/event/first-time-boston-marathoner-celebration/89798/",
       "cost": "Free",
       "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
       "_scraped": true
