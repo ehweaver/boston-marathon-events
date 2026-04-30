@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-04-29T09:09:25.567486+00:00",
+    "last_updated": "2026-04-30T09:12:21.654444+00:00",
     "total_events": 98,
     "sources": [
       "https://www.baa.org/races/boston-marathon/bmweekend/",
@@ -2213,6 +2213,24 @@
         "Giveaways"
       ],
       "signup_link": "https://www.meetboston.com/event/first-time-boston-marathoner-celebration/89798/",
+      "cost": "Free",
+      "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
+      "_scraped": true
+    },
+    {
+      "id": 115,
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "time": "TBA",
+      "name": "Boston Marathon 2027",
+      "category": "Brand Activation",
+      "location": "Boston, MA",
+      "address": "",
+      "description": "Boston Marathon 2027 April 19, 2027",
+      "sponsors": [],
+      "big_names": [],
+      "giveaways": [],
+      "signup_link": "",
       "cost": "Free",
       "source": "https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/",
       "_scraped": true
