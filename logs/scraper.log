@@ -3022,3 +3022,49 @@ Scraping: BostonCentral Events (https://www.bostoncentral.com/events/races/)
 Total events in database: 110
 2026-06-12 11:01:58,615 [INFO] Scraper run complete.
 
+2026-06-13 09:55:56,781 [INFO] ============================================================
+2026-06-13 09:55:56,781 [INFO] Boston Marathon 2026 Event Scraper — 2026-06-13 09:55:56
+2026-06-13 09:55:56,781 [INFO] ============================================================
+2026-06-13 09:55:56,782 [INFO] Loaded 110 existing events
+2026-06-13 09:55:56,782 [INFO] 
+Scraping: BAA Marathon Weekend (https://www.baa.org/races/boston-marathon/bmweekend/)
+2026-06-13 09:55:57,100 [INFO]   → Found 0 new events
+2026-06-13 09:55:58,600 [INFO] 
+Scraping: Marathon Weekend .com (https://www.marathon-weekend.com/boston/2026)
+2026-06-13 09:55:58,793 [WARNING] Failed to fetch https://www.marathon-weekend.com/boston/2026: 429 Client Error: Too Many Requests for url: https://www.marathon-weekend.com/boston/2026
+2026-06-13 09:55:58,793 [INFO]   → Found 0 new events
+2026-06-13 09:56:00,294 [INFO] 
+Scraping: Heartbreak Hill RC (https://heartbreak.run/blogs/heartbeat/the-ultimate-boston-2026-guide)
+2026-06-13 09:56:00,633 [INFO]   → Found 0 new events
+2026-06-13 09:56:02,134 [INFO] 
+Scraping: Eventbrite - Marathon Sports (https://www.eventbrite.com/cc/whats-happening-in-boston-2026-4829945)
+2026-06-13 09:56:03,502 [INFO]   → Found 0 new events
+2026-06-13 09:56:05,003 [INFO] 
+Scraping: Tracksmith Events (https://www.tracksmith.com/events)
+2026-06-13 09:56:05,173 [INFO]   → Found 0 new events
+2026-06-13 09:56:06,674 [INFO] 
+Scraping: RunSignUp Boston Shakeout (https://runsignup.com/Race/MA/Boston/ZapposBostonMarathonShakeoutRun)
+2026-06-13 09:56:07,152 [INFO]   → Found 0 new events
+2026-06-13 09:56:08,652 [INFO] 
+Scraping: Boston Discovery Guide April (https://www.boston-discovery-guide.com/boston-event-calendar-april.html)
+2026-06-13 09:56:09,348 [INFO]   → Found 0 new events
+2026-06-13 09:56:10,849 [INFO] 
+Scraping: Meet Boston - Marathon Events (https://www.meetboston.com/events/festivals-and-annual-events/boston-marathon/)
+2026-06-13 09:56:11,814 [INFO]   → Found 0 new events
+2026-06-13 09:56:13,314 [INFO] 
+Scraping: Eventbrite Boston April 2026 (https://www.eventbrite.com/d/ma--boston/boston-marathon--2026/)
+2026-06-13 09:56:13,396 [WARNING] Failed to fetch https://www.eventbrite.com/d/ma--boston/boston-marathon--2026/: 405 Client Error: Not Allowed for url: https://www.eventbrite.com/d/ma--boston/boston-marathon--2026/
+2026-06-13 09:56:13,396 [INFO]   → Found 0 new events
+2026-06-13 09:56:14,897 [INFO] 
+Scraping: RunGuides Boston 2026 (https://www.runguides.com/boston/runs)
+2026-06-13 09:56:15,611 [INFO]   → Found 0 new events
+2026-06-13 09:56:17,111 [INFO] 
+Scraping: BostonCentral Events (https://www.bostoncentral.com/events/races/)
+2026-06-13 09:56:17,463 [INFO]   → Found 0 new events
+2026-06-13 09:56:18,964 [INFO] 
+✓ No new events found. Database is up to date.
+2026-06-13 09:56:18,966 [INFO] Saved 110 events to /home/runner/work/boston-marathon-events/boston-marathon-events/data/events.json
+2026-06-13 09:56:18,966 [INFO] 
+Total events in database: 110
+2026-06-13 09:56:18,966 [INFO] Scraper run complete.
+
